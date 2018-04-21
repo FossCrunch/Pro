@@ -7,14 +7,20 @@
 				<img src="{{ site.baseurl }}/assets/img/img-md-1.jpg" alt="">
 			</a>
 			<ul class="article-info">
-				<li class="article-type"><i class="fa fa-camera"></i></li>
+				<li class="article-category">
+					<a href="{{ site.baseurl }}/category/{{include.relatedpost.category | downcase }}/">{{ include.relatedpost.category}}</a>
+				</li>
 			</ul>
 		</div>
 		<div class="article-body">
-			<h4 class="article-title"><a href="{{ post.url }}">{{ include.relatedpost.title | truncate: 80 }}</a></h4>
+			<h4 class="article-title">
+				<a href="{{ post.url }}">{{ include.relatedpost.title | truncate: 80 }}</a>
+			</h4>
 			<ul class="article-meta">
-				<li><i class="fa fa-clock-o"></i> {{ include.relatedpost.date | date: " %b %-d, %Y" }}</li>
-				<li><i class="fa fa-user"></i>  {{ include.relatedpost.author }}</li>
+				<li>
+					<i class="fa fa-clock-o"></i> {{ include.relatedpost.date | date: " %b %-d, %Y" }}</li>
+				<li>
+					<i class="fa fa-user"></i> {{ include.relatedpost.author }}</li>
 			</ul>
 		</div>
 	</article>

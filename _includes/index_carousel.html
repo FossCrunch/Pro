@@ -1,16 +1,29 @@
-	<article class="article thumb-article">
-		<div class="article-img">
+<article class="article thumb-article">
+	<div class="article-img">
+
+
+		<a href="{{ include.article.url }}">
 			<img src="{{ include.article.imageurl }}" alt="">
-		</div>
-		<div class="article-body">
-			<ul class="article-info">
-				<li class="article-category"><a href="#">{{ include.article.category }}</a></li>
-				<li class="article-type"><i class="fa fa-file-text"></i></li>
-			</ul>
-			<h2 class="article-title article-font-3"><a href="#">{{ include.article.title }}</a></h2>
-			<ul class="article-meta">
-				<li><i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
-				<li><i class="fa fa-user"></i> {{ include.article.author }}</li>
-			</ul>
-		</div>
-	</article>
+		</a>
+
+	</div>
+	<div class="article-body">
+		<ul class="article-info">
+			<li class="article-category">
+				<a href="{{ site.baseurl }}/category/{{include.article.category | downcase }}/">{{ include.article.category }}</a>
+			</li>
+			<li class="article-type">
+				<i class="fa fa-file-text"></i>
+			</li>
+		</ul>
+		<h2 class="article-title article-font-3">
+			<a href="{{ include.article.url }}">{{ include.article.title }}</a>
+		</h2>
+		<ul class="article-meta">
+			<li>
+				<i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
+			<li>
+				<i class="fa fa-user"></i> {{ include.article.author }}</li>
+		</ul>
+	</div>
+</article>

@@ -33,18 +33,24 @@ Table OF Contents
 
 body {
 
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif!important;
 	color:#2C2C2C;
 	font-size:15px;
 	font-weight:300;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif!important;
 	color: #07090C;
 	font-weight:700;
 	text-decoration: none!important;
 
+}
+
+p{
+	font-family: 'PT Sans', sans-serif!important;
+	color: #111;
+	
 }
 
 h1 {

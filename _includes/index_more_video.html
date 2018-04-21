@@ -1,32 +1,31 @@
-
 <!--<div class="col-md-4 col-sm-4">-->
 
 <!-- ARTICLE -->
 <article class="article thumb-article">
-        <div class="article-img">
+    <div class="article-img">
+        <a href="{{ include.article.url }}">
             <img src="{{ include.article.imageurl }}" alt="">
-        </div>
-        <div class="article-body">
-            <ul class="article-info">
-                <li class="article-category">
-                    <a href="#">News</a>
-                </li>
-                <li class="article-type">
-                    <i class="fa fa-video-camera"></i>
-                </li>
-            </ul>
-            <h3 class="article-title article-font-4">
-                <a href="#">{{ include.article.title }}</a>
-            </h3>
-            <ul class="article-meta">
-                <li>
-                    <i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
-                   <li> <i class="fa fa-user"></i> {{ include.article.author }}</li>
+        </a>
+    </div>
+    <div class="article-body">
+        <ul class="article-info">
+            <li class="article-category">
+                <a href="{{ site.baseurl }}/category/{{include.article.category | downcase }}/">{{ include.article.category}}</a>
+            </li>
 
-            </ul>
-        </div>
-    </article>
-    <!-- /ARTICLE -->
+        </ul>
+        <h3 class="article-title article-font-4">
+            <a href="{{ include.article.url }}">{{ include.article.title }}</a>
+        </h3>
+        <ul class="article-meta">
+            <li>
+                <i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
+            <li>
+                <i class="fa fa-user"></i> {{ include.article.author }}</li>
+
+        </ul>
+    </div>
+</article>
+<!-- /ARTICLE -->
 
 <!--</div>-->
-    

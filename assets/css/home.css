@@ -34,7 +34,7 @@ Table OF Contents
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif!important;
 	color:#2C2C2C;
 	font-size:15px;
 	font-weight:300;
@@ -42,14 +42,18 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif!important;
 	color: #111;
 	font-weight:700;
 
 
 }
 
-
+p{
+	font-family: 'PT Sans', sans-serif!important;
+	color: #111;
+	
+}
 
 a {
 	font-weight:400;
@@ -63,7 +67,7 @@ a:link{
   }
  
 a:hover{
-	color: #EF233C!important;
+	
 
 
 }
@@ -98,6 +102,13 @@ ul,ol{
 
 textarea.input {
 	padding:15px;
+}
+
+.notfound{
+	text-align: center; 
+	font-size: 25px; 
+	padding-top: 50px;
+
 }
 
 .input-btn {
@@ -1356,6 +1367,10 @@ textarea.input {
 
 	font-size: 18px;
 
+}
+.notfound{
+	font-size: 20px; 
+	padding-top: 30px;
 }
 }
 

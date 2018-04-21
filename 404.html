@@ -1,24 +1,146 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
 
-<div class="container">
+
+<div class="container notfound">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
+  <p>
+    <strong>Page not found :(</strong>
+  </p>
   <p>The requested page could not be found.</p>
+  <p>Visit our <a href="{{site.baseurl}}/">Home page</a> </p>
 </div>
+
+
+<!-- SECTION -->
+<div class="section">
+  <!-- CONTAINER -->
+  <div class="container">
+    <!-- ROW -->
+    <div class="row">
+      <!-- Main Column -->
+      <div class="col-md-12">
+        <!-- section title -->
+        <div class="section-title">
+          <h2 class="title">More Stories</h2>
+          <div id="nav-carousel-2" class="custom-owl-nav pull-right"></div>
+        </div>
+        <!-- /section title -->
+
+        <!-- owl carousel 2 -->
+        <div id="owl-carousel-2" class="owl-carousel owl-theme">
+          {% for post in site.posts limit: 3 %} 
+          {% include index_more_video.html article = post %} 
+          {% endfor %}
+
+        </div>
+        <!-- /owl carousel 2 -->
+      </div>
+      <!-- /Main Column -->
+    </div>
+    <!-- /ROW -->
+  </div>
+  <!-- /CONTAINER -->
+</div>
+<!-- /SECTION -->
+
+<!-- SECTION -->
+<div class="section">
+  <!-- CONTAINER -->
+  <div class="container">
+    <!-- ROW -->
+    <div class="row">
+      <!-- Main Column -->
+      <div class="col-md-8">
+        <!-- section title 
+					<div class="section-title">
+						<h2 class="title">Popular Posts</h2>
+					</div>
+					/section title -->
+
+        {% for post in site.posts limit: 3 %} 
+        {% include index_paginator.html article = post %} 
+        {% endfor %}
+      </div>
+      <!-- /Main Column -->
+
+      <!-- Aside Column -->
+      <div class="col-md-4">
+        <!-- article widget -->
+        <div class="widget">
+          <div class="widget-title">
+            <h2 class="title">Featured Posts</h2>
+          </div>
+
+          <!-- owl carousel 4 -->
+          <div id="owl-carousel-4" class="owl-carousel owl-theme">
+            <!-- ARTICLE -->
+            <article class="article thumb-article">
+              <div class="article-img">
+                <img src="{{ site.baseurl }}/assets/img/img-thumb-1.jpg" alt="">
+              </div>
+              <div class="article-body">
+                <ul class="article-info">
+                  <li class="article-category">
+                    <a href="#">News</a>
+                  </li>
+                  <li class="article-type">
+                    <i class="fa fa-video-camera"></i>
+                  </li>
+                </ul>
+                <h3 class="article-title article-font-4">
+                  <a href="#">15-Year-Old Exposes Vulnerabilities In Ledger&#039;s Nano S Cryptocurrency Wallet Exposes Vulnerabilities.</a>
+                </h3>
+                <ul class="article-meta">
+                  <li>
+                    <i class="fa fa-clock-o"></i> January 31, 2017</li>
+                  <li>
+                    <i class="fa fa-comments"></i> 33</li>
+                </ul>
+              </div>
+            </article>
+            <!-- /ARTICLE -->
+
+            <!-- ARTICLE -->
+            <article class="article thumb-article">
+              <div class="article-img">
+                <img src="{{ site.baseurl }}/assets/img/img-thumb-2.jpg" alt="">
+              </div>
+              <div class="article-body">
+                <ul class="article-info">
+                  <li class="article-category">
+                    <a href="#">News</a>
+                  </li>
+                  <li class="article-type">
+                    <i class="fa fa-video-camera"></i>
+                  </li>
+                </ul>
+                <h3 class="article-title article-font-4">
+                  <a href="#">1.5 Billion Sensitive Files Remain Exposed On Open Internet, Researchers Say Exposes Vulnerabilities.</a>
+                </h3>
+                <ul class="article-meta">
+                  <li>
+                    <i class="fa fa-clock-o"></i> January 31, 2017</li>
+                  <li>
+                    <i class="fa fa-comments"></i> 33</li>
+                </ul>
+              </div>
+            </article>
+            <!-- /ARTICLE -->
+          </div>
+          <!-- /owl carousel 4 -->
+        </div>
+        <!-- /article widget -->
+
+
+      </div>
+      <!-- /Aside Column -->
+    </div>
+    <!-- /ROW -->
+  </div>
+  <!-- /CONTAINER -->
+</div>
+<!-- /SECTION -->

@@ -16,9 +16,20 @@
 	
 	{% endif %}
 
+	{% if page.url == "index.html"  %}
 
+	<title>{{ site.title }}</title>
+
+
+
+	{% else %}
 
 	<title>{{ page.title }} | {{ site.title }}</title>
+
+	
+	{% endif %}
+
+
 
 
 	<!-- Bootstrap -->
@@ -54,17 +65,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="#"><b style="color: #fff; font-size: 20px;">FossCrunch</b></a>
+					<a class="navbar-brand" href="{{ site.baseurl }}/"><b style="color: #fff; font-size: 20px;">FossCrunch</b></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Technology</a></li>
-						<li><a href="#">Science</a></li>
-						<li><a href="#">Linux</a></li>
-						<li><a href="#">How To</a></li>
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+						<li><a href="{{ site.baseurl }}/category/news/">News</a></li>
+						<li><a href="{{ site.baseurl }}/category/technology/">Technology</a></li>
+						<li><a href="{{ site.baseurl }}/category/science/">Science</a></li>
+						<li><a href="{{ site.baseurl }}/category/linux/">Linux</a></li>
+						<li><a href="{{ site.baseurl }}/category/how_to/">How To</a></li>
 					</ul>
 
 				</div>
