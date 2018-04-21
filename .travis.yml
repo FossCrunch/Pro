@@ -16,7 +16,7 @@ branches:
 
 #set notifications frequency
  notifications:
-    slack: "$SLACK_API_TOKEN"
+    slack: "$SLACK_TOKEN"
 
 
 before_install:
