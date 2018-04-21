@@ -30,14 +30,7 @@ layout: default
         </div>
         <!-- /section title -->
 
-        <!-- owl carousel 2 -->
-        <div id="owl-carousel-2" class="owl-carousel owl-theme">
-          {% for post in site.posts limit: 3 %} 
-          {% include index_more_video.html article = post %} 
-          {% endfor %}
-
-        </div>
-        <!-- /owl carousel 2 -->
+        
       </div>
       <!-- /Main Column -->
     </div>
@@ -61,7 +54,7 @@ layout: default
 					</div>
 					/section title -->
 
-        {% for post in site.posts limit: 3 %} 
+        {% for post in site.posts limit: 15 %} 
         {% include index_paginator.html article = post %} 
         {% endfor %}
       </div>
