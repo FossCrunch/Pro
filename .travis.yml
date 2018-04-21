@@ -1,57 +1,27 @@
-#use node_js
-language: node_js
-
-#define node js version to use
-node_js:
-  - "7"
-
 language: ruby
+node_js:
+- '7'
 cache: bundler
-
-
-#choose branch on commit of which this script should excecute
 branches:
   only:
-    - master
-
-#set notifications frequency
+  - master
 notifications:
-  slack: "$SLACK_TOKEN" 
-
-
+  slack:
+    secure: G267BFxk+pt29jiWF30C7Gkl7VrKFpZ2IwUD4EvleKdQnvHYmgEeqFJ15g0n2e6TT3GZVTioPWRlnMK1AvKLNU1FRJcWXWtG4tC9KMMYnazGQB2W+EnN2KW8V8CMcPmVdgQxBSiqWi6UufQBpG1XU1tXJVgx4qufPX2SARQ0dtgecrhPPRHieNMSd/LNjHwXfE557pwSSQl8MBDy+/3iDIBWd42Nyve9vxdKfSjwS9f0Gbkk0Wm/ryn1NIh6wp5qEidnDXpcBy3xn69LFL2LiEmDGihNvT1CH2jRep5kdKjQwFvowZi/Zj/dpVSl+mpXt2YfttNkWuCstLgLfGACwGK3RQsA9vmR4/L+PWg1gVOb9ukHT0xgfI20glCuRlWcE+yMBPy3u71hjBaUusmhqONswI6CPOjYQPYFuePvy6EH35Smy8nOwEJrupCoHMgNlgkWL7vampaepqTex/+nqOOVfYXp+Mm9Y8GhGs8MQRsg0N+MvM1miIuRrUaKS2CVXjvfNCzchgsE3uPxfDubfZLP1uMx1+LpxQX8OwuKLwi7/u+hbB4Dm77spCBjw1EMaW0NVoQrrepWa4SOffjdcIU8onQMiaVS2+Ls1GqrClmU6aFxZBiSsfAzwe/bIpvdPqW4JgZnwovfQp7ZJ8DjEw2qTFdfnjCmka2wUUlWqS4=
 before_install:
-  #install rvm 2.2
-  - rvm install 2.2
-  #use rvm 2.2
-  - rvm use 2.2
-  #set home varaibles
-  - . $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1  
-  #install gems through bundler
-  - gem install bundler 
-  #if gems are missing this script will get the missing gems.
-  - bundle check || bundle install 
-
+- rvm install 2.2
+- rvm use 2.2
+- ". $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1"
+- gem install bundler
+- bundle check || bundle install
 install:
-  #install firebase tools, required to deploy on firebase hosting 
-  - npm install -g firebase-tools 
-
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: 
-  #continue even after error
-  - set -e 
-  #build jekyll site
-  - jekyll build 
-
+- npm install -g firebase-tools
+script:
+- set -e
+- jekyll build
 after_success:
-  #deploy to firebase using stored token. 
-  - firebase deploy --token "$FIREBASE_TOKEN" 
-
+- firebase deploy --token "$FIREBASE_TOKEN"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
-
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false

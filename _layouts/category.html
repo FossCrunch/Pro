@@ -61,7 +61,7 @@ layout: default
 
 
 
-				{% for post in site.categories[page.title] limit: 15 offset: 3 %}
+				{% for post in site.categories[page.title] offset: 3 %}
 
 				{% include category_article.html article = post %}
 
