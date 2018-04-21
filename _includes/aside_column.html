@@ -1,0 +1,53 @@
+	<!-- Aside Column -->
+	<div class="col-md-4">
+		<!-- Ad widget -->
+		{% include adwidget.html %}
+		<!-- /Ad widget -->	
+
+		<!-- social widget -->	
+		{% include social.html %}
+		<!-- /social widget -->
+
+		<!-- subscribe widget -->
+		{% include newsletter.html newsclass="widget" %}
+		<!-- /subscribe widget -->
+
+		<!-- article widget -->
+		<div class="widget">
+			<div class="widget-title">
+				<h2 class="title">Featured Posts</h2>
+			</div>
+
+			<!-- owl carousel 4 -->
+			<div id="owl-carousel-4" class="owl-carousel owl-theme">
+				<!-- ARTICLE -->
+
+				{% for post in site.posts limit:3 %}
+				{% include article_right.html posts = post %}
+				{% endfor %}
+				
+				<!-- /ARTICLE -->
+			</div>
+			<!-- /owl carousel 4 -->
+		</div>
+		<!-- /article widget -->
+
+
+
+		<!-- article widget -->
+		<div class="widget">
+
+			<div class="widget-title" style="margin-bottom: 20px;">
+				<h2 class="title">Recent Posts</h2>
+			</div>
+			{% assign items = site.posts | sort: 'date' %}
+			{% for post in site.posts limit: include.postcount %}
+				{% if post.url != page.url %}
+					{% include article_recent_post.html recentpost = post %}
+				{% endif %}
+			{% endfor %}
+
+
+		</div>
+				<!-- /Aside Column -->
+	</div>

@@ -1,0 +1,16 @@
+		<!-- ARTICLE -->
+		<article class="article widget-article">
+			<div class="article-img">
+				<a href="{{ post.url }}">
+					<img src="{{ include.recentpost.thumbImgSrc }}" alt="">
+				</a>
+			</div>
+			<div class="article-body"> 
+				<h4 class="article-title"><a href="{{ post.url }}">{{ include.recentpost.title | truncate: 80 }}</a></h4>
+				<ul class="article-meta">
+					<li><i class="fa fa-clock-o"></i> {{ include.recentpost.date | date: " %b %-d, %Y" }}</li>
+					<li><i class="fa fa-user"></i> {{ include.recentpost.author }}</li>
+				</ul>
+			</div>
+		</article>
+		<!-- /ARTICLE -->

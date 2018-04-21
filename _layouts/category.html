@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<!-- AD SECTION -->
+<div class="visible-lg visible-md" style="margin-top: 60px">
+	<img class="center-block" src="{{ site.baseurl }}/assets/img/ad3.jpg" alt="">
+</div>
+<!-- /AD SECTION -->
+
+<!-- SECTION -->
+<div class="section">
+	<!-- CONTAINER -->
+	<div class="container">
+		<!-- ROW -->
+		<div class="row">
+			<!-- Main Column -->
+			<div class="col-md-12">
+				<!-- section title -->
+				<div class="section-title">
+					<h2 class="title">Latest</h2>
+					<div id="nav-carousel-2" class="custom-owl-nav pull-right"></div>
+				</div>
+				<!-- /section title -->
+
+				<!-- owl carousel 2 -->
+				<div id="owl-carousel-2" class="owl-carousel owl-theme">
+
+
+					{% for post in site.categories[page.title] limit: 3 %}
+
+					{% include category_carousel.html article = post %}
+
+					{% endfor %}
+
+
+
+				</div>
+				<!-- /owl carousel 2 -->
+			</div>
+			<!-- /Main Column -->
+		</div>
+		<!-- /ROW -->
+	</div>
+	<!-- /CONTAINER -->
+</div>
+<!-- /SECTION -->
+
+<!-- SECTION -->
+<div class="section">
+	<!-- CONTAINER -->
+	<div class="container">
+		<!-- ROW -->
+		<div class="row">
+			<!-- Main Column -->
+			<div class="col-md-8">
+				<!-- section title -->
+				<div class="section-title">
+					<h2 class="title">Technology</h2>
+				</div>
+				<!-- /section title -->
+
+
+
+				{% for post in site.categories[page.title] limit: 15 offset: 3 %}
+
+				{% include category_article.html article = post %}
+
+				{% endfor %}
+
+
+
+
+
+
+				<!-- pagination -->
+				<div class="article-pagination">
+					<ul> 
+						<li class="active"><a href="#" class="active">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+					</ul>
+				</div>
+				<!-- /pagination -->
+			</div>
+			<!-- /Main Column -->
+
+			<!-- Aside Column -->
+			
+			<!-- Aside Column -->
+					{% include aside_column.html postcount = "5" %}
+			<!-- /Aside Column -->
+
+
+		</div>
+		<!-- /ROW -->
+	</div>
+	<!-- /CONTAINER -->
+</div>
+			<!-- /SECTION -->

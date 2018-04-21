@@ -1,0 +1,18 @@
+
+	<article class="article thumb-article">
+		<div class="article-img">
+			<img src="{{ include.posts.thumbImgSrc }}" alt="">
+		</div>
+		<div class="article-body">
+			<ul class="article-info">
+			<li class="article-category"><a href="{{ post.url }}">{{ include.posts.category }}</a></li>
+				<li class="article-type"><i class="fa fa-video-camera"></i></li>
+			</ul>
+			<h3 class="article-title"><a href="{{ post.url }}">{{ include.posts.title }}</a></h3>
+			<ul class="article-meta">
+				<li><i class="fa fa-clock-o"></i>{{ include.posts.date | date: " %b %-d, %Y" }}</li>
+				<li><i class="fa fa-user"></i> {{ include.posts.author }}</li>
+			</ul>
+		</div>
+	</article>
+

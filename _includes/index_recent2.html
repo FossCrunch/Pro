@@ -1,0 +1,21 @@
+
+<!-- ARTICLE -->
+<article class="article widget-article">
+		<div class="article-img">
+			<a href="#">
+				<img src="{{ include.article.imageurl }}" alt="">
+			</a>
+		</div>
+		<div class="article-body">
+			<h4 class="article-title">
+				<a href="#">{{ include.article.title }}</a>
+			</h4>
+			<ul class="article-meta">
+				<li>
+					<i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
+				<li>
+					<i class="fa fa-user"></i> {{ include.article.author }}</li>
+			</ul>
+		</div>
+	</article>
+	<!-- /ARTICLE -->

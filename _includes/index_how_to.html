@@ -1,0 +1,28 @@
+<div class="col-md-6 col-sm-6">
+	<!-- ARTICLE -->
+	<article class="article">
+		<div class="article-img">
+			<a href="#">
+				<img src="{{ include.article.imageurl }}" alt="">
+			</a>
+			<ul class="article-info">
+				<li class="article-type">
+					<i class="fa fa-camera"></i>
+				</li>
+			</ul>
+		</div>
+		<div class="article-body">
+			<h3 class="article-title article-font">
+				<a href="#">{{ include.article.title }}</a>
+			</h3>
+			<ul class="article-meta">
+				<li>
+					<i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
+				<li>
+					<i class="fa fa-user"></i> {{ include.article.author }}</li>
+			</ul>
+
+		</div>
+	</article>
+	<!-- /ARTICLE -->
+</div>

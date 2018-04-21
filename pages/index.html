@@ -1,0 +1,112 @@
+---
+layout: default
+---
+<!-- AD SECTION -->
+<div class="visible-lg visible-md" style="margin-top: 60px">
+	<img class="center-block" src="{{ site.baseurl }}/assets/img/ad3.jpg" alt="">
+</div>
+<!-- /AD SECTION -->
+
+
+
+<!-- SECTION -->
+<div class="section">
+	<!-- CONTAINER -->
+	<div class="container">
+		<!-- ROW -->
+		<div class="row">
+			<!-- Main Column -->
+			<div class="col-md-8">
+				<!-- section title -->
+				<div class="section-title">
+					<h2 class="title">Articles</h2>
+				</div>
+				<!-- /section title -->
+
+
+
+				{% for post in paginator.posts %}
+
+				{% include category_article.html article = post %}
+	
+				{% endfor %}
+
+				
+				
+				<!-- pagination -->
+				<center>
+
+
+				{% if paginator.total_pages > 1 %}
+				
+				<div class="article-pagination"> 
+
+				<ul>
+				{% if paginator.previous_page %}
+
+				<li>
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>	
+				</li>
+
+				{% else %}
+
+				<li>
+					<span>Prev </span>
+				</li>
+
+				{% endif %}
+
+				{% for page in (1..paginator.total_pages) %}
+					{% if page == paginator.page %}
+
+					<li class="active">
+						<a href="#">{{ page }}</a>
+					</li>
+
+					{% elsif page == 1 %}
+
+					<li>
+						<a href="/pages/">{{ page }}</a>
+					</li>
+
+					{% else %}
+				
+					<li>
+						<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+					</li>
+
+					{% endif %}
+				{% endfor %}
+
+				{% if paginator.next_page %}
+				<li>
+					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+				</li>
+				{% else %}
+				<li>
+					<span> Next</span>
+				</li>
+				{% endif %}
+				</ul>
+				</div>
+				{% endif %}
+
+			</center>
+
+				<!-- /pagination -->
+			</div>
+			<!-- /Main Column -->
+
+			<!-- Aside Column -->
+			
+			<!-- Aside Column -->
+					{% include aside_column.html postcount = "5" %}
+			<!-- /Aside Column -->
+
+
+		</div>
+		<!-- /ROW -->
+	</div>
+	<!-- /CONTAINER -->
+</div>
+<!-- /SECTION -->
