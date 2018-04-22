@@ -30,6 +30,7 @@ twitter_username: fosscrunchoff
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 timezone: Asia/Kolkata
 future: true
@@ -38,18 +39,6 @@ paginate_path: /pages/page:num
 paginate: 18
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "" 
-      type: "posts"
-    values:
-      permalink: :categories/:year/:month/:title/
   -
     scope:
       path: "" 

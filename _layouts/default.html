@@ -7,31 +7,12 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<meta name="robots" content="noodp" />
 	{% if page.post %}
-
-	{% include head_post.html %}
-
-	{% else %}
-
-	{% include head_page.html %}
-	
-	{% endif %}
-
-	{% if page.url == "index.html"  %}
-
-	<title>{{ site.title }}</title>
-
-
-
-	{% else %}
-
 	<title>{{ page.title }} | {{ site.title }}</title>
-
-	
+	{% include head_post.html %}
+	{% else %}
+	<title>{{ site.title }}</title>
+	{% include head_page.html %}	
 	{% endif %}
-
-
-
-
 	<!-- Bootstrap -->
 	<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css"/>
 
@@ -41,8 +22,6 @@
 
 	<!-- Font Awesome Icon -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
-
-	
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,8 +51,9 @@
 					<ul class="nav navbar-nav">
 						<li><a href="{{ site.baseurl }}/">Home</a></li>
 						<li><a href="{{ site.baseurl }}/category/news/">News</a></li>
-						<li><a href="{{ site.baseurl }}/category/technology/">Technology</a></li>
+						<li><a href="{{ site.baseurl }}/category/technology/">Tech</a></li>
 						<li><a href="{{ site.baseurl }}/category/science/">Science</a></li>
+						<li><a href="{{ site.baseurl }}/category/explainer/">Explainer</a></li>
 						<li><a href="{{ site.baseurl }}/category/linux/">Linux</a></li>
 						<li><a href="{{ site.baseurl }}/category/how_to/">How To</a></li>
 					</ul>
@@ -82,15 +62,9 @@
 			</div>
 		</nav>
 
-	-->
 </header>
 <!-- /Header -->
-
-
-
 {{ content }}
-
-
 <!-- FOOTER -->
 <footer id="footer">
 	<!-- Top Footer -->

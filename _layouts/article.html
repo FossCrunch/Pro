@@ -26,7 +26,7 @@ layout: default
 						<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
 					</div>
 					<div class="article-main-img">
-						<img src="{{ page.imageurl }}" alt="">
+						<img src="{{ site.baseurl }}/assets/img/image3.jpg" alt="">
 					</div>
 					<div class="article-body">
 						<ul class="article-info">
@@ -37,8 +37,7 @@ layout: default
 						</ul>
 						<h1 class="	article-title" style="font-weight: 700">{{ page.title }}</h1>
 						<ul class="article-meta">
-							<li><i class="fa fa-clock-o"></i>{{ page.date | date: " %b %-d, %Y" }}</li>
-							<li><i class="fa fa-user"></i> {{ page.author }}</li>
+								<li>{{ page.author }} - {{ page.date | date: " %b %-d, %Y" }}</li>
 						</ul>
 						<div style="font-size: 18px;">
 
