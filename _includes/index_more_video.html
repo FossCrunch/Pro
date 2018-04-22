@@ -3,25 +3,25 @@
 <!-- ARTICLE -->
 <article class="article thumb-article">
     <div class="article-img">
-        <a href="{{ include.article.url }}">
+        <a href="{{ post.url }}">
             <img src="{{ site.baseurl}}/assets/img/image1.jpg" alt="">
         </a>
     </div>
     <div class="article-body">
         <ul class="article-info">
             <li class="article-category" style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% endif %}; ">
-                <a href="{{ site.baseurl }}/category/{{include.article.category | downcase }}/">{{ include.article.category}}</a>
+                <a href="{{ site.baseurl }}/category/{{ post.category | downcase }}/"><b>{{ post.category}}</b></a>
             </li>
 
         </ul>
         <h3 class="article-title article-font-4">
-            <a href="{{ include.article.url }}">{{ include.article.title }}</a>
+            <a href="{{ post.url }}">{{ post.title | truncate: 80 }}</a>
         </h3>
         <ul class="article-meta">
             <li>
-                <i class="fa fa-clock-o"></i> {{ include.article.date | date: " %b %-d, %Y" }}</li>
+                <i class="fa fa-clock-o"></i> {{ post.date | date: " %b %-d, %Y" }}</li>
             <li>
-                <i class="fa fa-user"></i> {{ include.article.author }}</li>
+                <i class="fa fa-user"></i> {{ post.author }}</li>
 
         </ul>
     </div>

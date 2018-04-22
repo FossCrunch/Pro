@@ -30,7 +30,9 @@ layout: default
 					</div>
 					<div class="article-body">
 						<ul class="article-info">
-							<li class="article-category"><a href="#">{{ page.category }}</a></li>
+							<li class="article-category" style="background: {% if page.category == "Technology" %}#E31010{% elsif page.category == "Linux" %}#7B27C9{% elsif page.category == "Science" %}#02bb18{% elsif page.category == "Explainer" %}#31a1ff{% elsif page.category == "How_To" %}#C90861{% elsif page.category == "News" %}#3F73C7{% endif %}; ">
+								<a href="{{ site.baseurl }}/category{{page.category | downcase }}/">{{ page.category}}</a>
+							</li>
 							<li class="article-type"><i class="fa fa-file-text"></i></li>
 						</ul>
 						<h1 class="	article-title" style="font-weight: 700">{{ page.title }}</h1>
