@@ -4,7 +4,7 @@
 	<article class="article">
 		<div class="article-img">
 			<a href="{{ post.url }}">
-				<img src="{{ site.baseurl }}/assets/img/image1.jpg" alt="">
+				<img src="{{ post.imageurl }}" alt="{{post.tags | join: ', '}}">
 			</a>
 			<ul class="article-info">
 				<li class="article-category" style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% endif %}; ">

@@ -30,6 +30,29 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
 	<!--[endif] -->
 
+	<link rel="manifest" href="/manifest.json" />
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+	var OneSignal = window.OneSignal || [];
+	OneSignal.push(function() {
+		OneSignal.init({
+		appId: "e2a1d3ba-68ed-4573-8dcf-5e384fe50d6a",
+		});
+	});
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118589613-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-118589613-1');
+	</script>
+
+	
+
+
 </head>
 <body>
 
@@ -49,13 +72,12 @@
 
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a href="{{ site.baseurl }}/">Home</a></li>
-						<li><a href="{{ site.baseurl }}/category/news/">News</a></li>
-						<li><a href="{{ site.baseurl }}/category/technology/">Tech</a></li>
-						<li><a href="{{ site.baseurl }}/category/science/">Science</a></li>
-						<li><a href="{{ site.baseurl }}/category/explainer/">Explainer</a></li>
-						<li><a href="{{ site.baseurl }}/category/linux/">Linux</a></li>
-						<li><a href="{{ site.baseurl }}/category/how_to/">How To</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">Home</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">Tech</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">Science</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">Explainer</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">Linux</a></li>
+						<li><a href="{{ site.baseurl }}/404.html">How To</a></li>
 					</ul>
 
 				</div>
@@ -98,8 +120,8 @@
 							<h3 class="title">Follow Us</h3>
 						</div>
 						<ul>
-							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/fosscrunch/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/FossCrunchoff" class="twitter"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
 							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>

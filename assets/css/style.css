@@ -405,7 +405,7 @@ textarea.input {
 	SECTION
 ===========================================================*/
 .section {
-	padding-top:30px;
+	padding-top:60px;
 	padding-bottom:30px;
 }
 
@@ -976,9 +976,15 @@ textarea.input {
 }
 
 .article-post .article-main-img img {
-	width:100%;
-}
+	max-width:100%;
+	max-height: 100%;
 
+}
+.article-post .article-main-img.artimg{
+	height: 500px;
+	width: 100%;
+
+}
 .article-post .article-title {
 	font-size: 35px;
 }
@@ -1342,6 +1348,10 @@ textarea.input {
 	}
 
 	.article.row-article .article-img {
+		width: 100%;
+	}
+	.article-post .article-main-img.artimg{
+		height: 200px;
 		width: 100%;
 	}
 	

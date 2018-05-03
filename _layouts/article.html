@@ -21,12 +21,12 @@ layout: default
 				<!-- ARTICLE POST -->
 				<article class="article article-post">
 					<div class="article-share">
-						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-						<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+						<a href="https://www.facebook.com/sharer.php?u=https://fosscrunch.com{{ page.url }}" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/intent/tweet?text={{ page.title }} &url=https://fosscrunch.com{{ page.url }}&via=fosscrunchoff" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" class="google"><i class="fa fa-google-plus"></i></a>
 					</div>
-					<div class="article-main-img">
-						<img src="{{ site.baseurl }}/assets/img/image3.jpg" alt="">
+					<div class="article-main-img artimg">
+						<img src="{{ page.imageurl }}" alt="{{page.tags | join: ', '}}">
 					</div>
 					<div class="article-body">
 						<ul class="article-info">
@@ -50,7 +50,7 @@ layout: default
 				<!-- /ARTICLE POST -->
 
 				<!-- widget tags -->
-				<div class="widget-tags">
+				<!--<div class="widget-tags">
 					<ul>
 						<li><a href="#">News</a></li>
 						<li><a href="#">Technology</a></li>
@@ -58,7 +58,7 @@ layout: default
 						<li><a href="#">Linux</a></li>
 						<li><a href="#">How To</a></li>
 					</ul>
-				</div>
+				</div>-->	
 				<!-- /widget tags -->
 
 			</div>
@@ -79,61 +79,4 @@ layout: default
 	<img class="center-block" src="{{ site.baseurl }}/assets/img/ad-3.jpg" alt="">
 </div>
 <!-- /AD SECTION -->
-
-<!-- SECTION -->
-<div class="section">
-	<!-- CONTAINER -->
-	<div class="container">
-		<!-- ROW -->
-		<div class="row">
-			<!-- Main Column -->
-			<div class="col-md-12">
-				<!-- section title -->
-				<div class="section-title">
-					<h2 class="title">Related Post</h2>
-				</div>
-				<!-- /section title -->
-
-				<!-- row -->
-				<div class="row">
-
-
-					{% assign maxRelated = 4 %}
-					{% assign minCommonTags =  1 %}
-					{% assign maxRelatedCounter = 0 %}
-
-					{% for post in site.posts %}
-
-					{% assign sameTagCount = 0 %}
-					{% assign commonTags = '' %}
-
-					{% for tag in post.tags %}
-					{% if post.url != page.url %}
-					{% if page.tags contains tag %}
-					{% assign sameTagCount = sameTagCount | plus: 1 %}
-					{% endif %}
-					{% endif %}
-					{% endfor %}
-
-					{% if sameTagCount >= minCommonTags %}
-					{% include article_related.html relatedpost = post %}
-
-					{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-					{% if maxRelatedCounter >= maxRelated %}
-					{% break %}
-					{% endif %}
-					{% endif %}
-
-					{% endfor %}
-
-
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /Main Column -->
-		</div>
-		<!-- /ROW -->
-	</div>
-	<!-- /CONTAINER -->
-</div>
-<!-- /SECTION -->
+<!-- add laterrelated-->
