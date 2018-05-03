@@ -21,7 +21,7 @@
         <ul class="article-meta">
             <li>{{ post.author }} - {{ post.date | date: " %b %-d, %Y" }}</li>
         </ul>
-        <p>{{ post.description }}</p>
+        <p>{{ post.description | truncate: 180 }}</p>
     </div>
 </article>
 <!-- /ARTICLE -->
