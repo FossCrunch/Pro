@@ -5,7 +5,7 @@ date: 2018-05-01 08:25
 category: Technology
 tags: Gmail Google email tips productivity
 author: Dhinesh Kumar M
-permalink: :title/
+permalink: new-gmail-features/
 description: Gmail is getting its first major desktop redesign in years. Rolling out for all personal Gmail users. Checkout the top 5 features.
 imageurl: /assets/img/2018-05-01-gmail-features.jpg
 post: true
@@ -18,16 +18,16 @@ Google says it's rolling out the updated Gmail in phases, so it could be a littl
 Below, check out the most important changes and additions.
 <br><br>
 <h3><b>1. Confidential Mode</b></h3>
-Confidential mode is the biggest new Gmail feature. When composing a new message, you can click the lock/clock icon on the option bar to enter confidential mode.
-This gives you a far more granular degree of control over who can see the information in an email and what they can do with it. Confidential mode lets you set an expiration date on the email, anything from a day to a week or more. After that, it disappears and the recipient sees an "email has expired" message instead.
+Confidential mode is the biggest new Gmail feature. When composing a new message, you can click the lock/clock icon on the option bar to enter confidential mode.<br><br>
+This gives you a far more granular degree of control over who can see the information in an email and what they can do with it. Confidential mode lets you set an expiration date on the email, anything from a day to a week or more. After that, it disappears and the recipient sees an "email has expired" message instead.<br><br>
 Senders can also limit recipient privileges, like the ability to forward the confidential email or download attachments, and if a message is locked it needs to be authenticated either by directly granting access or using additional <a href="https://www.pcmag.com/feature/358289/two-factor-authentication-who-has-it-and-how-to-set-it-up">two-factor authentication.</a>
 <br><br>
 <h3><b>2. Snooze Messages</b></h3>
-At least several times a day, usually during working hours, an important message will pop up in Gmail that requires more of a thoughtful response than I can give it at the moment. My options are either to drop what I'm doing and respond or ignore the message and hope I remember to get to it later. Gmail's new Snooze feature is a better approach to that latter problem.
+At least several times a day, usually during working hours, an important message will pop up in Gmail that requires more of a thoughtful response than I can give it at the moment. My options are either to drop what I'm doing and respond or ignore the message and hope I remember to get to it later. Gmail's new Snooze feature is a better approach to that latter problem.<br><br>
 Select the Snooze option, and Gmail makes a message go away, only to bring it back to your attention at a later point in time. By default, you can make message vanish until later today, tomorrow, this weekend, next week or the disturbingly vague "Someday." You also have the option of setting a specific time for that snoozed message to return to your attention.
 <br><br>
 <h3><b>3. Unsend a message</b></h3> 
-You can take back access to emails sent in confidential mode anytime before they are set to expire. Go into your sent folder, find the message, and click "remove access." If you change your mind or if it expired too soon, click "renew access." 
+You can take back access to emails sent in confidential mode anytime before they are set to expire. Go into your sent folder, find the message, and click "remove access." If you change your mind or if it expired too soon, click "renew access." <br><br>
 Note: The recipient will still see that you sent them an email, including the subject line, but if they try to click it, they'll be told "You don't have access to this email." 
 <br><br>
 <h3><b>4. Nudging</b></h3>
