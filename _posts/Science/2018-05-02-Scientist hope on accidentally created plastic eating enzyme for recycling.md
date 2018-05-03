@@ -2,7 +2,7 @@
 layout: article
 title: Scientist hope on accidentally created plastic eating enzyme for recycling
 date: 2018-05-02 08:30 
-category: Technology
+category: Science
 tags: Plastics Oceans Pollution india-news World-news Environment Microbiology Science Biology
 author: Naveen Shankar
 permalink: plastic-eating-enzyme/
