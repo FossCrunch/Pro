@@ -5,7 +5,6 @@ cache: bundler
 branches:
   only:
   - master
-
 before_install:
 - rvm install 2.2
 - rvm use 2.2
@@ -19,7 +18,6 @@ script:
 - jekyll build
 after_success:
 - firebase deploy --token "$FIREBASE_TOKEN"
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-sudo: false
+notifications:
+  slack:
+    secure: eFhM3lbWG53sxRUojJWY6GUjjAUxKHxwq8Tg+EcwMEU4eDw2NAeq/9WGyLTSZiezwvx+dwDYVDEoljptBFETWYWibwt1oDtnS4Z8gLljFOVpyPE8vBOcMBQeEyeYCNnR9QyKfNxeAz0FIVGEBC1RAI3O+0AeaNpg8sjVSXT6WoETABbUPq5uluTfQvc1fz/glub4bYZ9jDII6RT81x1Bpvhhtny0Iav6KW83h3UKoHvthGm8yuwJ3abREBIg9osyWnKJec/7clGhzbkG5Z525K/Ppuvo+XFdnGejDqwl1tIT3Sp3ziPdYeTFa/n+mvux/++pfa2lWCdGlFre+lN6zaQ+u9YsDz3jrKCn49UBnFf2c72vLpf+x7CAhttHqnyruc6GE+gi3A0LzJYIWv60my/0trnPUtcJO4fFyLBi3WAuoISmWo+OaLObi7Z0seMlPvpjVM5kMe8xqkeLp7abtB1rWvVM6j0v72huuOJHxYTtg3hFMciOf2a/kN34a2KBSe1MEHuBHIM2Cju7nJT6Im3FVC1gos+88UdKQTiPfCJDylptlcLQujmyAwjLlI3RPgtIJQW3aQe2f9BDN7F7F2HaYPe230T80OlDoVQYmO+VhAT13dRsm4OjGcu7IzHUVlcVqpMCwFMwAIyht4FPncfpC1HDEwcXTTB7NLviqBc=
