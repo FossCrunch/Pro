@@ -5,9 +5,7 @@ cache: bundler
 branches:
   only:
   - master
-notifications:
-  slack:
-    secure: secure: GDzzbAhRtr72Wfq6uOcRcwiwuUd5MZQNK6ixOWZbhzscjQL5j+e0WT4ZsloTJNQJx1kkuvqS0Sr26BdTwtHE7+Xi15yZBq8au8gglN1nVY/8hlJDvzySsp0kgMxHki8auJvvTfTB5iKbTL4+IPNt5jFAdTws/Cz8ghQnbZw05/I8wRu8hbLE23qMuj2pSEc5VQuTf3ci6aXONjmT+9U4wRKmQUvblxlRJlPwzN3I5UksKrhZQ6yKdaf3eDFAu23k0qCvIXVydIP14yvFeJfvioPSmqh406fN0IT3TTPv0aoftveStSjZd3LpZl+HvGZic+UQKdMoR8ie6dJLeyzPAyWxXDZYHKonpJIJ/wPjbzvA3cjHBiue09G0TC5AFzt1fbhUJi2MwmkBZU8D5EMVc+QWTYyXGIpZV9pAROY7LGnVeM+4F6zKUSV5RUxJTQaELTgcWaM+TqdLtEo/rhXvb3fZ9FtSkzcGu27J41kAzjVHWrrlN0O58vDWRC/pZDixe+V88kkicO+o/y08ofcURyHxXPET1l1hPERQ3aMLt1XH6XHyXIOISGwQDS/75piDpck/JOfPnq//SBmX6cDBCehbGp3A5BZEEVk8TtofpDYfDHUDw1yGR+BRtdRrVd5MWzDY+1rPnmJiDlb77dCLGd/2/Y80kJ4LHz4EBM5ibh8=
+
 before_install:
 - rvm install 2.2
 - rvm use 2.2
