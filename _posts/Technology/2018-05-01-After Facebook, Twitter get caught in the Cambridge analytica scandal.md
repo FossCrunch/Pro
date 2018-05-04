@@ -20,8 +20,14 @@ According to the report, Twitter sold public data access in 2015 to Aleksandr Ko
 Twitter confirmed its relationship with DrKogan’s firm Global Science Research yesterday, revealing it allowed the firm to harvest “a random sample of public tweets for a five-month period from December 2014 to April 2015”.
 <br>
 
-But, in a statement, the company claimed it was not the same sort of data breach that affected Facebook because the tweets had been knowingly shared publicly. “Based on the recent reports, we conducted our own internal review and did not find any access to private data about people who use Twitter,” the company said.
+But, in a statement, the company claimed it was not the same sort of data breach that affected Facebook because the tweets had been knowingly shared publicly. 
 <br>
+
+<blockquote class="blockquote">
+  <p class="mb-0">“Based on the recent reports, we conducted our own internal review and did not find any access to private data about people who use Twitter,”
+</p>
+  <footer class="blockquote-footer">Twitter</footer>
+</blockquote>
 
 But Cambridge Analytica, which allegedly used the Facebook data to influence elections, denied it had used Twitter information from Dr Kogan.
 <br>

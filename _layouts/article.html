@@ -20,11 +20,7 @@ layout: default
 
 				<!-- ARTICLE POST -->
 				<article class="article article-post">
-					<div class="article-share">
-						<a href="https://www.facebook.com/sharer.php?u=https://fosscrunch.com{{ page.url }}" class="facebook"><i class="fa fa-facebook"></i></a>
-						<a href="https://twitter.com/intent/tweet?text={{ page.title }} &url=https://fosscrunch.com{{ page.url }}&via=fosscrunchoff" class="twitter"><i class="fa fa-twitter"></i></a>
-						<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" class="google"><i class="fa fa-google-plus"></i></a>
-					</div>
+					
 					<div class="article-main-img artimg">
 						<img src="{{ page.imageurl }}" alt="{{page.tags | join: ', '}}">
 					</div>
@@ -37,14 +33,79 @@ layout: default
 						</ul>
 						<h1 class="	article-title" style="font-weight: 700">{{ page.title }}</h1>
 						<ul class="article-meta">
-								<li>{{ page.author }} - {{ page.date | date: " %b %-d, %Y" }}</li>
+								<li><b>{{ page.author }}</b> - {{ page.date | date: " %b %-d, %Y" }}</li>
 						</ul>
+
+						<div class="row">
+
+
+								<p style="padding-left: 15px; padding-top: 10px; font-weight: bold;"><b> SHARE </b>  &nbsp; &nbsp;
+		
+								<!-- Facebook -->
+		
+								<a href="https://www.facebook.com/sharer.php?u=https://fosscrunch.com{{ page.url }}" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/fb.png" alt="Facebook" width="35px" height="35px" style="margin-right: 10px" />
+								</a>
+		
+								<!-- Twitter -->
+		
+								<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://fosscrunch.com{{ page.url }}&via=fosscrunchoff" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/tw.png" alt="Twitter" width="35px" height="35px" style="margin-right: 10px" />
+		
+								</a>
+		
+								<!-- Googel plus -->
+		
+								<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/google.png" alt="Googelplus" width="32px" height="32px" style="margin-right: 10px; margin-top: 1px" />
+								</a>
+		
+								<a  class="whatsapp" href="whatsapp://send?text=https://fosscrunch.com{{ page.url }}" data-action="share/whatsapp/share">
+									<img src="{{ site.baseurl }}/assets/img/whatsapp.png" alt="Whatsapp" width="34px" height="32px" style="margin-right: 10px; margin-top: 1px" />
+								</a></p> 
+								&nbsp; &nbsp;
+						</div>
+
 						<div style="font-size: 18px;">
 
 							{{ content }}
 
 						</div>
 
+						<div class="row">
+
+
+								<p style="padding-left: 15px; padding-top: 10px; font-weight: bold;"><b> SHARE </b>  &nbsp; &nbsp;
+		
+								<!-- Facebook -->
+		
+								<a href="https://www.facebook.com/sharer.php?u=https://fosscrunch.com{{ page.url }}" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/fb.png" alt="Facebook" width="35px" height="35px" style="margin-right: 10px" />
+								</a>
+		
+								<!-- Twitter -->
+		
+								<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://fosscrunch.com{{ page.url }}&via=fosscrunchoff" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/tw.png" alt="Twitter" width="35px" height="35px" style="margin-right: 10px" />
+		
+								</a>
+		
+								<!-- Googel plus -->
+		
+								<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" target="_blank">
+									<img src="{{ site.baseurl }}/assets/img/google.png" alt="Googelplus" width="32px" height="32px" style="margin-right: 10px; margin-top: 1px" />
+								</a>
+		
+								<a  class="whatsapp" href="whatsapp://send?text=https://fosscrunch.com{{ page.url }}" data-action="share/whatsapp/share">
+									<img src="{{ site.baseurl }}/assets/img/whatsapp.png" alt="Whatsapp" width="34px" height="32px" style="margin-right: 10px; margin-top: 1px" />
+								</a></p> 
+								&nbsp; &nbsp;
+							</div>
+						{% if page.next.url %}
+							<blockquote style="border-left-style:solid;border-width: 4px; margin-top: 10px; margin-bottom: 10px"><p>Also Read : <a href="{{page.next.url}}">{{page.next.title}}</a></p> </blockquote>
+						{% elsif page.previous.url %}
+							<blockquote style="border-left-style:solid;border-width: 4px; margin-top: 10px; margin-bottom: 10px"><p>Also Read : <a href="{{page.previous.url}}">{{page.previous.title}}</a></p> </blockquote>
+						{% endif %}
 					</div>
 				</article>
 				<!-- /ARTICLE POST -->
