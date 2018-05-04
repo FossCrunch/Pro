@@ -550,7 +550,13 @@ textarea.input {
 	transition:0.5s transform;
 	transition:0.5s transform, 0.5s -webkit-transform;
 }
+.imgcc{
+	font-size: 12px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 
+}
 .article:hover .article-img img {
 	-webkit-transform:scale(1.1);
 	    -ms-transform:scale(1.1);
@@ -985,6 +991,15 @@ textarea.input {
 	width: 100%;
 
 }
+
+.article-post .article-main-img.artimg2{
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
 .article-post .article-title {
 	font-size: 35px;
 }
@@ -1293,6 +1308,13 @@ textarea.input {
 ===========================================================*/
 @media only screen and (max-width: 1201px) {
 
+
+
+}
+@media only screen and (min-width: 1024px) {
+	/* Add your custom styles here for Desktop */
+	.whatsapp{ display: none; }
+	
 }
 
 @media only screen and (max-width: 991px) {
@@ -1312,12 +1334,22 @@ textarea.input {
 		text-align:center;
 		margin-top:15px;
 	}
+	
 }
 
 @media only screen and (max-width: 767px) {
 	.article-share {
 		top:15px;
 		left:15px;
+	}
+	.article-post .article-main-img.artimg2{
+		width: 100%;
+		height: 100%;
+	
+	}
+	.article-post .article-main-img.artimg{
+		height: 100%;
+		width: 100%;
 	}
 }
 
@@ -1351,8 +1383,14 @@ textarea.input {
 		width: 100%;
 	}
 	.article-post .article-main-img.artimg{
-		height: 240px;
+		height: 100%;
 		width: 100%;
+	}
+
+	.article-post .article-main-img.artimg2{
+		width: 100%;
+		height: 100%;
+	
 	}
 	
 

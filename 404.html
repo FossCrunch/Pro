@@ -70,59 +70,11 @@ layout: default
 
           <!-- owl carousel 4 -->
           <div id="owl-carousel-4" class="owl-carousel owl-theme">
-            <!-- ARTICLE -->
-            <article class="article thumb-article">
-              <div class="article-img">
-                <img src="{{ site.baseurl }}/assets/img/img-thumb-1.jpg" alt="">
-              </div>
-              <div class="article-body">
-                <ul class="article-info">
-                  <li class="article-category">
-                    <a href="#">News</a>
-                  </li>
-                  <li class="article-type">
-                    <i class="fa fa-video-camera"></i>
-                  </li>
-                </ul>
-                <h3 class="article-title article-font-4">
-                  <a href="#">15-Year-Old Exposes Vulnerabilities In Ledger&#039;s Nano S Cryptocurrency Wallet Exposes Vulnerabilities.</a>
-                </h3>
-                <ul class="article-meta">
-                  <li>
-                    <i class="fa fa-clock-o"></i> January 31, 2017</li>
-                  <li>
-                    <i class="fa fa-comments"></i> 33</li>
-                </ul>
-              </div>
-            </article>
-            <!-- /ARTICLE -->
-
-            <!-- ARTICLE -->
-            <article class="article thumb-article">
-              <div class="article-img">
-                <img src="{{ site.baseurl }}/assets/img/img-thumb-2.jpg" alt="">
-              </div>
-              <div class="article-body">
-                <ul class="article-info">
-                  <li class="article-category">
-                    <a href="#">News</a>
-                  </li>
-                  <li class="article-type">
-                    <i class="fa fa-video-camera"></i>
-                  </li>
-                </ul>
-                <h3 class="article-title article-font-4">
-                  <a href="#">1.5 Billion Sensitive Files Remain Exposed On Open Internet, Researchers Say Exposes Vulnerabilities.</a>
-                </h3>
-                <ul class="article-meta">
-                  <li>
-                    <i class="fa fa-clock-o"></i> January 31, 2017</li>
-                  <li>
-                    <i class="fa fa-comments"></i> 33</li>
-                </ul>
-              </div>
-            </article>
-            <!-- /ARTICLE -->
+            {% for post in site.posts limit:3 %} 
+            {% if post.url != page.url%} 
+            {% include article_right.html %} 
+            {% endif %} 
+            {% endfor %}
           </div>
           <!-- /owl carousel 4 -->
         </div>
