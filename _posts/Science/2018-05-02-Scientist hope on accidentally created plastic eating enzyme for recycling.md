@@ -9,6 +9,7 @@ permalink: plastic-eating-enzyme/
 description: Scientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging.
 imageurl: /assets/img/2018-05-02-plastic-enzyme.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-02-plastic-enzyme.jpg
+sideimg: /assets/img/sideimg/2018-05-02-plastic-enzyme.jpg
 post: true
 ---
 

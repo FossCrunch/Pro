@@ -9,6 +9,7 @@ permalink: twitter-cambridge-analytica-scandal/
 description: After the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge.
 imageurl: /assets/img/2018-05-01-twitter-scandal.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-01-twitter-scandal.jpg
+sideimg: /assets/img/sideimg/2018-05-01-twitter-scandal.jpg
 post: true
 ---
 
