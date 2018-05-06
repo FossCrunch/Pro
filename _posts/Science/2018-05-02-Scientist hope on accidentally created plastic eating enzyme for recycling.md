@@ -4,7 +4,7 @@ title: Scientist hope on accidentally created plastic eating enzyme for recyclin
 date: 2018-05-02 08:30 
 category: Science
 tags: Plastics Oceans Pollution india-news World-news Environment Microbiology Science Biology
-author: Naveen Shankar
+author: Naveen Sankar
 permalink: plastic-eating-enzyme/
 description: Scientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging.
 imageurl: /assets/img/2018-05-02-plastic-enzyme.jpg

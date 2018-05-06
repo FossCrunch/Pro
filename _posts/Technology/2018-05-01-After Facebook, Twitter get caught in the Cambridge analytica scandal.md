@@ -4,7 +4,7 @@ title: After Facebook, Twitter get caught in the Cambridge analytica scandal
 date: 2018-05-01 10:30 
 category: Technology
 tags: twitter cambridge-analytica scandal facebook-scandal Social-Media Analytica Donald-Trump-presidential-campaign
-author: Naveen Shankar
+author: Naveen Sankar
 permalink: twitter-cambridge-analytica-scandal/
 description: After the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge.
 imageurl: /assets/img/2018-05-01-twitter-scandal.jpg
