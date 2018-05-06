@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Facebook Announces A Dating Feature For 2.2 Billion Users
+title: Facebook Announces Dating Feature For 2.2 Billion Users
 date: 2018-05-03 17:00
 category: Technology
 tags: facebook facebook-dating-feature f8 tinder tinder-killer facebook-f8-2018 technology internet computing open-source linux
