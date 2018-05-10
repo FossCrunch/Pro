@@ -7,7 +7,7 @@ tags: Gmail Google email tips productivity
 author: Dhinesh Kumar M
 permalink: new-gmail-features/
 description: Gmail is getting its first major desktop redesign in years. Rolling out for all personal Gmail users. Checkout the top 5 features.
-imageurl: /assets/img/2018-05-01-gmail-features.jpg
+imageurl: /assets/img/main/2018-05-01-gmail-features.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-01-gmail-features.jpg
 sideimg: /assets/img/sideimg/2018-05-01-gmail-features.jpg
 post: true

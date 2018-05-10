@@ -7,7 +7,7 @@ tags: facebook facebook-dating-feature f8 tinder tinder-killer facebook-f8-2018 
 author: Dhinesh Kumar M
 permalink: facebook-dating-feature/
 description: The new Tinder-killer will live inside the app, and Zuckerberg said that it won’t be visible to friends or family, and won’t pair you with your existing friends.
-imageurl: /assets/img/2018-05-03-facebook.jpg
+imageurl: /assets/img/main/2018-05-03-facebook.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-03-facebook.jpg
 sideimg: /assets/img/sideimg/2018-05-03-facebook.jpg
 post: true

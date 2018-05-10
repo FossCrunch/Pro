@@ -40,7 +40,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'PT Sans', sans-serif!important;
-	color: #07090C;
+	color: #000;
 	font-weight:700;
 	text-decoration: none!important;
 
@@ -89,6 +89,25 @@ ul,ol{
     padding: 0;
     list-style: none
 }
+.list ul{
+	margin: 10px;
+    padding: 10px;
+    list-style: disc
+}
+.list ol{
+	margin: 10px;
+    padding: 10px;
+    list-style: decimal;
+}
+.first-letter {
+	float: left;
+	font-size: 45px;
+	line-height: 35px;
+	padding-right: 6px;
+	padding-top: 2px;
+	padding-left: 3px;
+  }
+
 
 /*----------------------------*\
 	input

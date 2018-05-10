@@ -7,7 +7,7 @@ tags: AI Azure Build Build2018 gadgetry gadgets gear microsoft personal-computin
 author: Dhinesh Kumar M
 permalink: microsoft-build-2018-conference/
 description: Some of the major updates we’re expecting to see at Microsoft Build 2018 teases of Redstone 5 (the codename for the next major Windows 10 update), Windows Mixed Reality updates and some AI news.
-imageurl: /assets/img/2018-05-05-microsoft-build.jpg
+imageurl: /assets/img/main/2018-05-05-microsoft-build.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-05-microsoft-build.jpg
 sideimg: /assets/img/sideimg/2018-05-05-microsoft-build.jpg
 post: true
@@ -40,7 +40,7 @@ Microsoft has made huge strides in bringing artificial intelligence to its consu
 <h3><b>Windows Mixed Reality</b></h3>
 
 <div class="article-main-img artimg2">
-		<img src="{{ site.baseurl }}/assets/img/2018-05-05-microsoft-build-1.jpg" alt="{{page.tags | join: ', '}}">
+		<img src="{{ site.baseurl }}/assets/img/main/2018-05-05-microsoft-build-1.jpg" alt="{{page.tags | join: ', '}}">
 </div>
 
 After launching Windows <strong>Mixed Reality </strong>last fall, alongside a slew of headsets from PC makers like HP, Acer and Samsung, Microsoft has been surprisingly quiet about the state of its VR and AR platform. The fact that many headsets have gotten drastically cheaper in just a few months. 

@@ -7,7 +7,7 @@ tags: Plastics Oceans Pollution india-news World-news Environment Microbiology S
 author: Naveen Sankar
 permalink: plastic-eating-enzyme/
 description: Scientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging.
-imageurl: /assets/img/2018-05-02-plastic-enzyme.jpg
+imageurl: /assets/img/main/2018-05-02-plastic-enzyme.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-02-plastic-enzyme.jpg
 sideimg: /assets/img/sideimg/2018-05-02-plastic-enzyme.jpg
 post: true
@@ -31,7 +31,7 @@ Despite recycling efforts, most plastic can persist for hundreds of years in the
 <h3><b>Hungry enzyme</b></h3> 
 
 <div class="article-main-img artimg2">
-		<img src="{{ site.baseurl }}/assets/img/2018-05-02-plastic-enzyme-1.jpg" alt="{{page.tags | join: ', '}}">
+		<img src="{{ site.baseurl }}/assets/img/main/2018-05-02-plastic-enzyme-1.jpg" alt="{{page.tags | join: ', '}}">
 </div>
 <footer class="imgcc">
     Image courtesy -Electron microscope photos of enzyme/substrate interactions. Pic: Dennis Schroeder / NRE
