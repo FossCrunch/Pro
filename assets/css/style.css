@@ -107,7 +107,12 @@ ul,ol{
 	padding-top: 2px;
 	padding-left: 3px;
   }
-
+  iframe {
+   
+	margin: 0 auto;
+	display: block;
+    background-color: #777;
+}
 
 /*----------------------------*\
 	input
@@ -1326,6 +1331,14 @@ textarea.input {
 ===========================================================*/
 @media only screen and (max-width: 1201px) {
 
+	iframe {
+		width: 560px;
+		height: 315px;
+		margin: 0 auto;
+		display: block;
+		background-color: #777;
+	}
+
 
 
 }
@@ -1352,6 +1365,13 @@ textarea.input {
 		text-align:center;
 		margin-top:15px;
 	}
+	iframe {
+		width: 350px;
+		height: 235px;
+		margin: 0 auto;
+		display: block;
+		background-color: #777;
+	}
 	
 }
 
@@ -1369,12 +1389,20 @@ textarea.input {
 		height: 100%;
 		width: 100%;
 	}
+	iframe {
+		width: 350px;
+		height: 235px;
+		margin: 0 auto;
+		display: block;
+		background-color: #777;
+	}
 }
 
 @media only screen and (max-width: 480px) {
 	.article-comments .media:after  {
 		display:none;
 	}
+	
 
 	.article-comments > .media .media {
 		margin-left:15px;
@@ -1410,6 +1438,14 @@ textarea.input {
 		height: 100%;
 	
 	}
+	iframe {
+		width: 280px;
+		height: 157px;
+		margin: 0 auto;
+		display: block;
+		background-color: #777;
+	}
+
 	
 
 }
