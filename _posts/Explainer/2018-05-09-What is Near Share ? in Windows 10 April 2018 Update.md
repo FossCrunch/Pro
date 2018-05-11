@@ -1,6 +1,6 @@
 ---
 layout: article
-title: What is Near Share ? in Windows 10 Update
+title: What is Near Share ? in Windows 10 April 2018 Update
 date: 2018-05-10 17:00
 category: Explainer
 tags: near-share windows10 windows-10-file-sharing file-sharing wireless-file-sharing build-17035 nearby-sharing share-files windows-10-guide windows-howto windows-insider technology internet computing open-source linux android security privacy

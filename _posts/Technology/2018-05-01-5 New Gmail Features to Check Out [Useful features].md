@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-05-01-gmail-features.jpg
 post: true
 ---
 
-Gmail is getting its <a href="https://www.pcmag.com/news/360579/google-is-giving-gmail-a-makeover">first major desktop redesign</a> in years. Rolling out for all personal Gmail users and <a href="https://www.pcmag.com/review/352023/google-g-suite">G Suite</a> early adopter program (EAP) customers, the revamped email service sports a streamlined interface, plus a bevy of new intelligence and security features geared toward productivity. 
+<span class="first-letter">G</span>mail is getting its <a href="https://www.pcmag.com/news/360579/google-is-giving-gmail-a-makeover">first major desktop redesign</a> in years. Rolling out for all personal Gmail users and <a href="https://www.pcmag.com/review/352023/google-g-suite">G Suite</a> early adopter program (EAP) customers, the revamped email service sports a streamlined interface, plus a bevy of new intelligence and security features geared toward productivity. 
 <br>
 
 Google says it's rolling out the updated Gmail in phases, so it could be a little bit before you're treated to Gmail's new look and enhanced capabilities. You can speed things along, though, by trying to <a href="https://www.tomsguide.com/us/how-to-get-new-gmail,news-27061.html">get the revamped Gmail now</a>. Just click on Settings — that's the Gear icon in the right corner of your inbox — and select Try the New Gmail if that option is available. If you don't like what you see, you can use the Settings to go back to the classic Gmail look.

@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-04-25-youtube.jpg
 post: true
 ---
 
-YouTube is the internet’s replacement for the TV, thus it’s entirely natural that we’d utilize it as our background noise provider, however Google doesn’t make that easy on mobile devices. Unless you receive a YouTube Red subscription, YouTube only plays as a foreground app, meaning you can’t use your telephone and listen to music or podcasts on YouTube at the same time. Well, unless you rip off a small. 
+<span class="first-letter">Y</span>ouTube is the internet’s replacement for the TV, thus it’s entirely natural that we’d utilize it as our background noise provider, however Google doesn’t make that easy on mobile devices. Unless you receive a YouTube Red subscription, YouTube only plays as a foreground app, meaning you can’t use your telephone and listen to music or podcasts on YouTube at the same time. Well, unless you rip off a small. 
 <br>
 
 The Android version of the Telegram messaging app can play YouTube video links directly, without asking to send you away to another app. This is altogether fine and formal, but the fun begins when you minimize Telegram or even turn the screen off entirely.

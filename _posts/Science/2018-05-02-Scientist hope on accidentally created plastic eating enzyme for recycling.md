@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-05-02-plastic-enzyme.jpg
 post: true
 ---
 
-Scientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging. 
+<span class="first-letter">S</span>cientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging. 
 <br>
 
 This could revolutionize the recycling process, allowing plastics to be re-used more effectively. UK consumers use around 13 billion plastic drinks bottles a year but more than three billion are not recycled. 

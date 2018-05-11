@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-05-03-facebook.jpg
 post: true
 ---
 
-Mark Zuckerberg just announced that Facebook is joining the dating game, to help users build perhaps "the most meaningful relationship of all.", Kicking off the company’s annual F8 developer conference, CEO Mark Zuckerberg said there are<strong> 200 million</strong> users on Facebook who list their relationship status as<strong>“single." </strong>
+<span class="first-letter">M</span>ark Zuckerberg just announced that Facebook is joining the dating game, to help users build perhaps "the most meaningful relationship of all.", Kicking off the company’s annual F8 developer conference, CEO Mark Zuckerberg said there are<strong> 200 million</strong> users on Facebook who list their relationship status as<strong>“single." </strong>
 <br>
 
 The new <strong>Tinder-killer</strong> will live inside the app, and Zuckerberg said that it won’t be visible to friends or family, and won’t pair you with your existing friends. News of Facebook’s new feature caused the stock of Tinder-owner Match Group to quickly droop. The other big news of F8 Day 2: Zuckerberg announced that, for the first time, Facebook users can opt out of the company’s data gathering practices, which it uses to sell targeted ads.

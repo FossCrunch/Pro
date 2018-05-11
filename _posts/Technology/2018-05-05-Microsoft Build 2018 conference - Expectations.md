@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-05-05-microsoft-build.jpg
 post: true
 ---
 
-Microsoft Build is starting in just a few days, and with it we’ll see what Microsoft has in store for us in the coming year. The annual event, like <strong>Google I/O</strong> (which starts just one day later), is a celebration of the company's developer community. That means you can expect plenty of technical details and on-stage coding during the two keynotes, which will be led by Microsoft CEO <strong>Satya Nadella</strong> and operating systems head <strong>Joe Belfiore.</strong>
+<span class="first-letter">M</span>icrosoft Build is starting in just a few days, and with it we’ll see what Microsoft has in store for us in the coming year. The annual event, like <strong>Google I/O</strong> (which starts just one day later), is a celebration of the company's developer community. That means you can expect plenty of technical details and on-stage coding during the two keynotes, which will be led by Microsoft CEO <strong>Satya Nadella</strong> and operating systems head <strong>Joe Belfiore.</strong>
 <br>
 
 Some of the major updates we’re expecting to see at Microsoft Build 2018 teases of <strong>Redstone 5</strong> (the codename for the next major Windows 10 update), Windows Mixed Reality updates and some AI news. It’s unlikely that Microsoft will announce anything beyond software, so you shouldn’t be expecting the next Surface devices here.

@@ -13,7 +13,7 @@ sideimg: /assets/img/sideimg/2018-05-01-twitter-scandal.jpg
 post: true
 ---
 
-After the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge. 
+<span class="first-letter">A</span>fter the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge. 
 <br>
 
 According to the report, Twitter sold public data access in 2015 to Aleksandr Kogan, then a psychology researcher with University of Cambridge and his company Global Science Research (GSR). 
