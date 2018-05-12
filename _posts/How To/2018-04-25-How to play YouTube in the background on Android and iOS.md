@@ -9,7 +9,7 @@ permalink: how-to-play-youtube-in-background/
 description: You can take advantage of a workaround to play YouTube videos in the background if you use Google Chrome. It might not be as convenient as Red, but the trick does the job by taking advantage of Chrome’s desktop mode feature.
 imageurl: /assets/img/main/2018-04-25-youtube.jpg
 thumbimageurl: /assets/img/thumbnail/2018-04-25-youtube.jpg
-sideimg: /assets/img/sideimg/2018-04-25-youtube.jpg
+posterurl: /assets/img/poster/2018-04-25-youtube.jpg
 post: true
 ---
 

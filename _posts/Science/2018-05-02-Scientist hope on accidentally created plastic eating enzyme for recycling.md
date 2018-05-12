@@ -9,7 +9,7 @@ permalink: plastic-eating-enzyme/
 description: Scientists have engineered an enzyme which can digest polyethylene terephthalate (PET), the plastic used in single-use plastic bottles and other common packaging.
 imageurl: /assets/img/main/2018-05-02-plastic-enzyme.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-02-plastic-enzyme.jpg
-sideimg: /assets/img/sideimg/2018-05-02-plastic-enzyme.jpg
+posterurl: /assets/img/poster/2018-05-02-plastic-enzyme.jpg
 post: true
 ---
 
@@ -32,10 +32,11 @@ Despite recycling efforts, most plastic can persist for hundreds of years in the
 
 <div class="article-main-img artimg2">
 		<img src="{{ site.baseurl }}/assets/img/main/2018-05-02-plastic-enzyme-1.jpg" alt="{{page.tags | join: ', '}}">
+    <footer class="imgcc">
+    <center>Image courtesy -Electron microscope photos of enzyme/substrate interactions. Pic: Dennis Schroeder / NRE</center>
+  </footer>
 </div>
-<footer class="imgcc">
-    Image courtesy -Electron microscope photos of enzyme/substrate interactions. Pic: Dennis Schroeder / NRE
-</footer>
+
 
 <br>
 The new research sprang from the discovery of bacteria in a Japanese waste recycling center that had evolved the ability to feed on plastic. The bugs used a natural enzyme called PETase to digest PET bottles and containers.

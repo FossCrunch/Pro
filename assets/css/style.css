@@ -103,9 +103,9 @@ ul,ol{
 	float: left;
 	font-size: 45px;
 	line-height: 35px;
-	padding-right: 6px;
-	padding-top: 2px;
-	padding-left: 3px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-left: 4px;
   }
   iframe {
    
@@ -575,10 +575,6 @@ textarea.input {
 }
 .imgcc{
 	font-size: 12px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-
 }
 .article:hover .article-img img {
 	-webkit-transform:scale(1.1);

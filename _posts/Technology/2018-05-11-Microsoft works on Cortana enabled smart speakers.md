@@ -6,10 +6,10 @@ category: Technology
 tags: smart-speaker microsoft-speaker cortana cortana-speaker AI Azure Build Build2018 gadgetry gadgets gear microsoft personal-computing personalcomputing Windows Windows10
 author: Dhinesh Kumar M
 permalink: microsoft-smart-speaker/
-description: It is likely that Microsoft is partnered with Taiwanese contract manufacturer Quanta Computer, the design for the smart speaker
+description: It is likely that Microsoft is partnered with Taiwanese contract manufacturer Quanta Computer, the design for the smart speaker has been recently completed by the reference board.
 imageurl: /assets/img/main/2018-05-11-microsoft-smart-spaker.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-11-microsoft-smart-spaker.jpg
-sideimg: /assets/img/sideimg/2018-05-11-microsoft-smart-spaker.jpg
+posterurl: /assets/img/poster/2018-05-11-microsoft-smart-spaker.jpg
 post: true
 ---
 

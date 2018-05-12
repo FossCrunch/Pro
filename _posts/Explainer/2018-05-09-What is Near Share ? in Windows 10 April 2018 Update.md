@@ -9,7 +9,7 @@ permalink: microsoft-near-share/
 description: Near Share is the file sharing system that will allow you to share web pages, image's, videos and documents, etc between two PC. This was first introduced as part of Windows 10 Insider Build 17035.
 imageurl: /assets/img/main/2018-05-05-microsoft-near-share.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-05-microsoft-near-share.jpg
-sideimg: /assets/img/sideimg/2018-05-05-microsoft-near-share.jpg
+posterurl: /assets/img/poster/2018-05-05-microsoft-near-share.jpg
 post: true
 ---
 <p><span class="first-letter">M</span>icrosoft has introduced a new built-in file sharing system called <strong>Near Share</strong>. This was first introduced as part of Windows 10&rsquo;s Insider<strong> Build 17035</strong>, it is an ad-hoc replacement for the traditional USB drives. If you have ever used Apple's AirDrop, Near Share is similar to that.</p>
