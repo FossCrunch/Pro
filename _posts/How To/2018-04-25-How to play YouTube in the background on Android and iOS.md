@@ -38,18 +38,18 @@ This is by far the slickest of all options: you can play or pause either from no
 You can take advantage of a workaround to play YouTube videos in the background if you use Google Chrome. It might not be as convenient as Red, but the trick does the job by taking advantage of Chrome’s desktop mode feature.
 <br>
 <ol>
-		<li>1. Open <a href="https://www.youtube.com">www.youtube.com</a> in the Chrome browser.</li>
-		<li>2. In the three-dot menu at the top right, check the “Request desktop site” box.</li>
-		<li>3. Navigate to the video you want to listen to and press play.</li>
-	  <li>4. If you’re shown a warning saying YouTube wants to send you notifications, accept it.</li>
-		<li>5. Exit the Chrome app and you’ll be able to resume playback from the notification menu.</li>
+		<li>Open <a href="https://www.youtube.com">www.youtube.com</a> in the Chrome browser.</li>
+		<li>In the three-dot menu at the top right, check the “Request desktop site” box.</li>
+		<li>Navigate to the video you want to listen to and press play.</li>
+	  <li>If you’re shown a warning saying YouTube wants to send you notifications, accept it.</li>
+		<li>Exit the Chrome app and you’ll be able to resume playback from the notification menu.</li>
 </ol> 
 <h3><b>And on iOS:</b></h3>
 <ol>
-	<li>1. Download the <a href="https://itunes.apple.com/gb/app/dolphin-web-browser/id452204407?mt=8">Dolphin web browser</a> to your iOS device.</li>
-	<li>2. Open <a href="https://www.youtube.com">www.youtube.com</a> in Dolphin.</li>
-	<li>3. Navigate to the video you want to listen to and press play.</li>
-	<li>4. Exit the Dolphin app and you’ll be able to resume playback from the iOS Control Center</li>
+	<li>Download the <a href="https://itunes.apple.com/gb/app/dolphin-web-browser/id452204407?mt=8">Dolphin web browser</a> to your iOS device.</li>
+	<li>Open <a href="https://www.youtube.com">www.youtube.com</a> in Dolphin.</li>
+	<li>Navigate to the video you want to listen to and press play.</li>
+	<li>Exit the Dolphin app and you’ll be able to resume playback from the iOS Control Center</li>
 </ol>  
 You can also use any other browser to run YouTube in the background, provided it has the desktop mode option available. However, playback controls in the Notifications shade and on the lock screen may differ.
 

@@ -34,7 +34,7 @@ layout: default
 					<div class="article-body">
 						<ul class="article-info">
 							<li class="article-category" style="background: {% if page.category == "Technology" %}#E31010{% elsif page.category == "Linux" %}#7B27C9{% elsif page.category == "Science" %}#02bb18{% elsif page.category == "Explainer" %}#31a1ff{% elsif page.category == "How_To" %}#C90861{% elsif page.category == "News" %}#3F73C7{% endif %}; ">
-								<a href="{{ site.baseurl }}/category/{{page.category | downcase }}/"><b>{{ page.category}}</b></a>
+								<a href="{{ site.baseurl }}/category/{{page.category | downcase }}/"><b>{% if page.category == "How_To" %} How To {% else %} {{ page.category}} {% endif %}</b></a>
 							</li>
 							<li class="article-type"><i class="fa fa-file-text"></i></li>
 						</ul>
@@ -90,26 +90,31 @@ layout: default
 								<p style="padding-left: 15px; padding-top: 10px; font-weight: bold;"><b> SHARE </b>  &nbsp; &nbsp;
 		
 								<!-- Facebook -->
-		
+								
 								<a href="https://www.facebook.com/sharer.php?u=https://fosscrunch.com{{ page.url }}" target="_blank">
-									<img src="{{ site.baseurl }}/assets/img/static/fb.jpg" alt="Facebook" style="margin-right: 10px" />
+									<img src="{{ site.baseurl }}/assets/img/static/fb.jpg" alt="Facebook" title="Share by Facebook" style="margin-right: 10px" />
 								</a>
-		
+
 								<!-- Twitter -->
-		
+
 								<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://fosscrunch.com{{ page.url }}&via=fosscrunchoff" target="_blank">
-									<img src="{{ site.baseurl }}/assets/img/static/tw.jpg" alt="Twitter" style="margin-right: 10px" />
-		
+									<img src="{{ site.baseurl }}/assets/img/static/tw.jpg" title="Share by twitter" alt="Twitter" style="margin-right: 10px" />
+
 								</a>
-		
+
 								<!-- Googel plus -->
-		
-								<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" target="_blank">
+
+								<a href="https://plus.google.com/share?url=https://fosscrunch.com{{ page.url }}" title="Share by Google plus" target="_blank">
 									<img src="{{ site.baseurl }}/assets/img/static/google.jpg" alt="Googelplus" style="margin-right: 10px; margin-top: 1px" />
 								</a>
-		
-								<a  class="whatsapp" href="whatsapp://send?text=https://fosscrunch.com{{ page.url }}" data-action="share/whatsapp/share">
+
+								<a  class="whatsapp" title="Share by whatsapp" href="whatsapp://send?text=https://fosscrunch.com{{ page.url }}" data-action="share/whatsapp/share">
 									<img src="{{ site.baseurl }}/assets/img/static/whatsapp.jpg" alt="Whatsapp" style="margin-right: 10px; margin-top: 1px" />
+								</a>
+
+								<a href="mailto:?subject=I wanted you to see this article;body=Check out this article https://fosscrunch.com{{page.url}}"
+									title="Share by Email">
+									<img src="{{ site.baseurl }}/assets/img/static/email.jpg">
 								</a></p> 
 								&nbsp; &nbsp;
 							</div>

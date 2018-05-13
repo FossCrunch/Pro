@@ -1,0 +1,17 @@
+    <a href="{{ post.url }}"><div class="feature-image-thumb relative">
+        <div class="overlay overlay-bg"></div>
+             <img class="img-fluid" src="{{ post.imageurl }}" alt="{{post.tags | join: ', '}}">
+    </div>
+    <div class="top-post-details">
+        <ul class="tags">
+            <li style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% endif %}; "><a href="{{ site.baseurl }}/category/{{post.category | downcase }}/"><b>{% if post.category == "How_To" %}How To {% else %} {{ post.category}} {% endif %}</b></a></li>
+        </ul>
+        <a href="{{ post.url }}" style="color: #fff">
+            <h3><b>{{ post.title }}</b></h3>
+        </a>
+        <ul class="meta">
+            <li><a href="#"><span class="lnr lnr-user"></span> {{ post.author }}</a></li>
+            <li><a href="#"><span class="lnr lnr-calendar-full"></span> {{ post.date | date: " %b %-d, %Y" }}</a></li>
+        </ul>
+    </div>
+</a>

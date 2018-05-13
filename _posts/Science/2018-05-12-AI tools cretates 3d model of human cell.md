@@ -1,6 +1,6 @@
 ---
 layout: article
-title: AI tools cretates 3d model of human cell
+title: AI tools cretated 3d model of human cell
 date: 2018-05-12 13:30 
 category: Science
 tags: 3D artifical intelligence AI tensoeflow fosscrunch science bioengineering  model cells genes machinelearning medicine biology
@@ -22,8 +22,11 @@ post: true
     <center>Image courtesy : Allen Institute</center>
 </footer>
 </div>
-
-<p>"This is a new way to see inside living human cells," said Rick Horwitz, executive director of the Allen Institute for Cell Science.</p>
+<blockquote class="blockquote">
+  <p class="mb-0">"This is a new way to see inside living human cells,"
+</p>
+  <footer class="blockquote-footer"> said Rick Horwitz, executive director of the Allen Institute for Cell Science.</footer>
+</blockquote>
 <p>This achievement will have a great impact in <strong>drug discovery, disease research</strong> and will be helpful in understanding the basics of the human cell. Probably this could also solve the mysteries behind <strong>Cancer.</strong></p>
 <p>To create the <strong>3D</strong> model of the cell the scientist's gene edited the large collection of live human cell's to incorporate <strong>fluorescent</strong> protein tags, that will illuminate the specific structures inside the cells.</p>
 <p><iframe src="https://www.youtube.com/embed/kQkMNOOakGY?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
