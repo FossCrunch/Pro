@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Festival of technology: what happened in Google I/O 2018.
+title: Google I/O 2018 Keynote [Updated]
 date: 2018-05-11 09:30 
 category: Explainer
 tags: Explainer Technology Fosscrunch Android-P Voice-Assistant Artificial-Intelligence Google photos Augmented reality maps Single navigation Google lens Google I/O  2018 Developer Conference AI Assistant
