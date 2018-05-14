@@ -1451,7 +1451,7 @@ textarea.input {
 ===========================================================*/
 #back-to-top {
 	position:fixed;
-	right:15px;
+	left:15px;
 	bottom:15px;
 	width:45px;
 	height:45px;
