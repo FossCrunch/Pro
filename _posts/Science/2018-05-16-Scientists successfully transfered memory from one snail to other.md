@@ -3,7 +3,8 @@ layout: article
 title: Scientists successfully transfered memory from one snail to other
 date: 2018-05-16 11:00 
 category: Science
-tags: science neuroscience memory-transfer sea-snail research fosscrunch neurobiologist RNA ribonucleic acid
+keywords: [Science, neuroscience, memory transfer, sea snail, research, fosscrunch, neurobiologist, RNA, ribonucleic acid]
+tags: Science neuroscience memory-transfer sea-snail research neurobiologist RNA ribonucleic-acid
 author: Dhinesh Kumar
 permalink: sea-snail-memory-transfer/
 description: Scientists have been studying about Sea Snail for a long time. Sea snail has about sum of 20000 Neurons which is very much less compared to humans 100 billion neurons. But the functionality is more likely similar to humans. They transmit impulse as the human brain do
@@ -12,7 +13,7 @@ thumbimageurl: /assets/img/thumbnail/2018-05-16-sea-snail-memory-transfer-t.jpg
 posterurl: /assets/img/poster/2018-05-16-sea-snail-memory-transfer-p.jpg
 post: true
 ---
-<p>Neuroscientists at the University of California in Los Angeles have successfully transferred memory from one snail to another through injecting RNA. Yes, they did, this questions the basic understanding of where and how memories are stored in the brain.</p>
+<p><span class="first-letter">N</span>euroscientists at the University of California in Los Angeles have successfully transferred memory from one snail to another through injecting RNA. Yes, they did, this questions the basic understanding of where and how memories are stored in the brain.</p>
 <p>Scientists have been studying about Sea Snail for a long time. Sea snail has about sum of <strong>20000 Neurons</strong> which is very much less compared to humans <strong>100 billion</strong> neurons. But the functionality is more likely similar to humans. They transmit impulse as the human brain do.</p>
 <p>Ok now let's figure out how scientists did that.</p>
 <p><strong>David Glanzman</strong>, a neurobiologist at the University of California in Los Angeles, according to him the kind of memory that triggers a defensive reflex action in snail is not encoded in the connections(synapses) between brain cells, but in the <strong>RNA.</strong></p>
