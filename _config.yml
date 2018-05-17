@@ -16,9 +16,8 @@
 title: FossCrunch
 email: hello@fosscrunch.com
 description: >- # this means to ignore newlines until "baseurl:"
-  FossCrunch covers the breakthrough technologies and scientific discoveries 
-  that will shape humanity’s future. Our mission is to empower our readers and 
-  drive the development of these transformative technologies towards maximizing human potential. 
+  Fosscrunch is an emerging Science and Tech website, we cover breakthroughts that will help 
+  shape the future of humanity. We share awesome articles that will interest you.
 
   
 baseurl: "" # the subpath of your site, e.g. /blog

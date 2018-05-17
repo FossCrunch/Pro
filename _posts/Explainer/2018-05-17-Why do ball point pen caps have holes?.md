@@ -11,7 +11,7 @@ description: There is a great mystery behind the holes in the ballpoint pen lids
 imageurl: /assets/img/main/2018-05-17-ball-point-pen.jpg
 imagecourtesy: The Sun
 thumbimageurl: /assets/img/thumbnail/2018-05-17-ball-point-pen-t.jpg
-posterurl: /assets/img/poster/2018-05-17-sea-ball-point-pen-p.jpg
+posterurl: /assets/img/poster/2018-05-17-ball-point-pen-p.jpg
 post: true
 ---
 <p>Ballpoint pen is one of the most common things that we use in our day-to-day life, but many people have never paid attention to the <strong>hole</strong> at the end of the ballpoint pens. Some might have thought it as a common <strong>design feature.</strong></p>
