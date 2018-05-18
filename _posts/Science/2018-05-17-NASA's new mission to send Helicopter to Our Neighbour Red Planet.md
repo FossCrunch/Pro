@@ -36,9 +36,11 @@ post: true
 </center>
 
 </div>
+<center>
 <footer class="imgcc">
     Image courtesy: NASA/JPL-CalTech
 </footer>
+</center>
 <p>They have designed the <strong>space helicopter super light</strong>, so it can easily fly through the thin helicopter, and controllers were also designed to get a command from the rover it's hard to the controller it with a joystick from earth.</p>
 
 
