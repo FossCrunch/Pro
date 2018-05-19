@@ -118,6 +118,11 @@ layout: default
 								</a></p> 
 								&nbsp; &nbsp;
 							</div>
+						{% if page.reference %}
+							<p style="color: #bbbcbf">Reference : {{page.reference | join: ', '}} </p>
+						{% elsif page.courtesy %}
+						<p style="color: #bbbcbf">Courtesy : {{page.courtesy | join: ', '}} </p>						
+						{% endif %}
 						{% if page.next.url %}
 							<blockquote style="border-left-style:solid;border-width: 4px; margin-top: 10px; margin-bottom: 10px"><p>Also Read : <a href="{{page.next.url}}">{{page.next.title}}</a></p> </blockquote>
 						{% elsif page.previous.url %}

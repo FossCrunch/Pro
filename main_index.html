@@ -9,19 +9,19 @@ style: home
 	<div class="container no-padding">
 		<div class="row small-gutters">
 			<div class="col-lg-8 top-post-left">
-				{% for post in site.posts limit: 1 offset: 1 %} 
+				{% for post in site.posts limit: 1 %} 
 				{% include indextop1.html %} 
 				{% endfor %}
 			</div>
 			
 			<div class="col-lg-4 top-post-right">
 					<div class="single-top-post">
-						{% for post in site.posts limit: 1 offset: 2 %} 
+						{% for post in site.posts limit: 1 offset: 1 %} 
 						{% include indextop1.html %} 
 						{% endfor %}
 					</div>
 					<div class="single-top-post mt-10">
-						{% for post in site.posts limit: 1 offset: 3 %} 
+						{% for post in site.posts limit: 1 offset: 2 %} 
 						{% include indextop1.html %} 
 						{% endfor %}
 						
@@ -58,7 +58,7 @@ style: home
 						<!-- row -->
 						<div class="row">
 
-							{% for post in site.posts limit: 4 %} 
+							{% for post in site.posts limit: 4 offset:3 %} 
 							{% include index_recent.html article = post %} 
 							{% endfor %}
 
@@ -69,7 +69,7 @@ style: home
 						<div class="row">
 							<!-- Column 1 -->
 							<div class="col-md-4 col-sm-6">
-								{% for post in site.posts limit: 2 offset: 4 %} 
+								{% for post in site.posts limit: 2 offset: 7 %} 
 								{% include index_recent2.html article = post %} 
 								{% endfor %}
 							</div>
@@ -77,13 +77,13 @@ style: home
 
 							<!-- /Column 3 -->
 							<div class="col-md-4 hidden-sm">
-								{% for post in site.posts limit: 2 offset: 6 %} 
+								{% for post in site.posts limit: 2 offset: 9 %} 
 								{% include index_recent2.html article = post %} 
 								{% endfor %}
 							</div>
 							<!-- /Column 3 -->
 							<div class="col-md-4 hidden-sm">
-								{% for post in site.posts limit: 2 offset: 8 %} 
+								{% for post in site.posts limit: 2 offset: 10 %} 
 								{% include index_recent2.html article = post %} 
 								{% endfor %}
 							</div>
@@ -123,12 +123,16 @@ style: home
 					<!-- /section title -->
 
 					<!-- Column 1 -->
-					
-					{% for post in site.categories.Explainer limit: 4 %}
 
-					{% include index_how_to.html article = post %}
+						{% for post in site.categories.Explainer limit: 4 %}
 
-					{% endfor %}
+						{% include index_how_to.html article = post %}
+
+						{% endfor %}
+				
+
+						
+
 					<!-- /Column 2 -->
 				</div>
 				<!-- /row -->
@@ -246,7 +250,7 @@ style: home
 
 					<!-- owl carousel 2 -->
 					<div id="owl-carousel-2" class="owl-carousel owl-theme">
-							{% for post in site.posts limit: 3 offset: 10 %} 
+							{% for post in site.posts limit: 3 offset: 13 %} 
 							{% include index_more_video.html article = post %} 
 							{% endfor %}
 						
@@ -275,7 +279,7 @@ style: home
 					</div>
 					/section title -->
 
-					{% for post in site.posts offset: 13 limit: 5 %}
+					{% for post in site.posts offset: 16 limit: 5 %}
 					{% include index_paginator.html article = post %} 
 					{% endfor %}
 				</div>

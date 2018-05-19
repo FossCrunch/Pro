@@ -7,13 +7,13 @@
 			</a>
 			<ul class="article-info">
 				<li class="article-category" style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% endif %}; ">
-					<a href="{{ site.baseurl }}/category/{{include.article.category | downcase }}/"><b>{{ post.category}}</b></a>
+					<a href="{{ site.baseurl }}/category/{{include.article.category | downcase }}/"><b>{{ post.category }}</b></a>
 				</li>
 			</ul>
 		</div>
 		<div class="article-body">
 			<h3 class="article-title article-font">
-				<a href="{{ post.url }}">{{ post.title | truncate: 80 }}</a>
+				<a href="{{ post.url }}">{{ post.title | truncate: 41 }}</a>
 			</h3>
 			<ul class="article-meta">
 					<li>{{ post.author }} - {{ post.date | date: " %b %-d, %Y" }}</li>

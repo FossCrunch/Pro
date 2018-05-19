@@ -35,7 +35,7 @@ timezone: Asia/Kolkata
 future: true
 
 paginate_path: /pages/page:num
-paginate: 18
+paginate: 21
 
 defaults:
   -
