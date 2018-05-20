@@ -11,7 +11,7 @@ description: Wright brothers proves that controlled flight is possilobe in the p
 imageurl: /assets/img/main/2018-05-17-NASA-MArs-Helicopter.jpg
 imagecourtesy: NASA/JPL-Caltech
 thumbimageurl: /assets/img/thumbnail/2018-05-17-NASA-MArs-Helicopter-t.jpg
-posterimg: /assets/img/poster/2018-05-17-NASA-MArs-Helicopter-p.jpg
+posterurl: /assets/img/poster/2018-05-17-NASA-MArs-Helicopter-p.jpg
 post: true
 ---
 

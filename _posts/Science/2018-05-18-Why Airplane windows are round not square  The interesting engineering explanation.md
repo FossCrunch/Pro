@@ -10,7 +10,7 @@ description: Why airplane window are round in shape, why not it is square in sha
 imageurl: /assets/img/main/2018-05-18-airplane-round-window.jpg
 imagecourtesy: Science alert
 thumbimageurl: /assets/img/thumbnail/2018-05-18-airplane-round-window-t.jpg
-posterimg: /assets/img/poster/2018-05-18-airplane-round-window-p.jpg
+posterurl: /assets/img/poster/2018-05-18-airplane-round-window-p.jpg
 post: true
 ---
  <p>

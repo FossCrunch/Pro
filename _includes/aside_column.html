@@ -34,7 +34,7 @@
 		<div class="widget-title" style="margin-bottom: 20px;">
 			<h2 class="title">Recent Posts</h2>
 		</div>
-		{% for post in site.posts limit: include.postcount %} 
+		{% for post in site.posts limit: include.postcount offset: 3 %} 
 		{% if post.url != page.url%} 
 		{% include article_recent_post.html recentpost = post %} 
 		{% endif %} 

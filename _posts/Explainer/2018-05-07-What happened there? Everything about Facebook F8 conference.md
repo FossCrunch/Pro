@@ -1,6 +1,6 @@
 ---
 layout: article
-title: What happened in Facebook F8 conference?
+title: Facebook F8 conference highlights
 date: 2018-05-07 09:30 
 category: Explainer
 tags: Explainer Technology Fosscrunch Facebook f8 developers-conference Oculus-GO Augmented-reality Virtual-reality Snap-chat Mark-Zuckerberg Cambridge-analytica Clear-cache Standalone Instagram-video-calling Whatapp-video-calling
