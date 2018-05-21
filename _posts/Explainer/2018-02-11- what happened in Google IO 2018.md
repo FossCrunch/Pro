@@ -8,8 +8,8 @@ author: Naveen Sankar
 permalink: Google-IO-2018/
 description: After cambridge analytica issue facebook enabled some new features along with clear cache option, announcement of Oculus Go and announcemnt of many more functionality. Get into the artile to know more at F8 2018 announcements.
 imageurl: /assets/img/main/2018-05-11-Google-I-O-2018.jpg
-posterurl: /assets/img/thumbnail/2018-05-11-Google-I-O-2018.jpg
-sideimg: /assets/img/sideimg/2018-05-11-Google-I-O-2018.jpg
+thumbimageurl: /assets/img/thumbnail/2018-05-11-Google-I-O-2018.jpg
+posterurl: /assets/img/sideimg/2018-05-11-Google-I-O-2018.jpg
 post: true
 ---
 <p><strong>Tech marvel</strong> <a href="https://events.google.com/io/" target="_blank">Google's festival</a> was celebrated at the shoreline amphitheatre in <a href="https://en.wikipedia.org/wiki/Mountain_View,_California" target="_blank">Mountain View, California</a>. Before getting into the keynotes of the event "<strong>Get practice to live with AI</strong>" yeah its time for users after developers. There are various highlight let's take a look at top 10 announcements which nailed all the <a href="https://developers.google.com/" target="_blank">community</a>.</p>
