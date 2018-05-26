@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Scientists successfully transfered memory from one snail to other
+post: true
+id: dk0009
+title: Scientists successfully transferred memory from one snail to other
 date: 2018-05-16 11:00 
 category: Science
 keywords: [Science, neuroscience, memory transfer, sea snail, research, fosscrunch, neurobiologist, RNA, ribonucleic acid]
@@ -11,7 +13,7 @@ description: Scientists have been studying about Sea Snail for a long time. Sea 
 imageurl: /assets/img/main/2018-05-16-sea-snail-memory-transfer.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-16-sea-snail-memory-transfer-t.jpg
 posterurl: /assets/img/poster/2018-05-16-sea-snail-memory-transfer-p.jpg
-post: true
+reference: [Globalnews.ca]
 ---
 <p><span class="first-letter">N</span>euroscientists at the University of California in Los Angeles have successfully transferred memory from one snail to another through injecting RNA. Yes, they did, this questions the basic understanding of where and how memories are stored in the brain.</p>
 <p>Scientists have been studying about Sea Snail for a long time. Sea snail has about sum of <strong>20000 Neurons</strong> which is very much less compared to humans <strong>100 billion</strong> neurons. But the functionality is more likely similar to humans. They transmit impulse as the human brain do.</p>
@@ -21,6 +23,16 @@ post: true
 <p>David Glanzman, To prove his belief, he experimented with California sea snail or Aplysia californica. He implanted wires at the tail of the sea snail and gave them a series of mild electric shocks ( Animal lovers no offense it doesn't hurt or make any physical damage to the snail). The snails were trained to develop a defensive reaction by contracting. At first, the snails would only curl for a few seconds. But through repeated shocks, the researchers trained them to curl for longer, up to about <strong>50 seconds.</strong></p>
 <p>Scientists extracted the RNA from the snail that was sensitised and injected into a small number of marine snails that had not been sensitised in this way.</p>
 <p>The non-sensitised snails <strong>injected</strong> with the RNA from the shocked animals behaved as if they had themselves received the tail shocks, displaying a defensive contraction of about 40 seconds.</p>
+<div class="article-main-img">
+<center>
+	<img src="{{ site.baseurl }}/assets/img/main/2018-05-16-sea-snail-memory-transfer-1.jpg" alt="{{page.tags | join: ', '}}">
+</center>
+</div>
+<center>
+<footer class="imgcc">
+    Source: Eneuro
+</footer>
+</center>
 <p>Traditionally, long-term memories were thought to be stored at the brain's <strong>synapses,</strong> the junctions between nerve cells. Each neuron has several thousand synapses.</p>
 <blockquote class="blockquote">
   <p class="mb-0">"If memories were stored at synapses, there is no way our experiment would have worked."
