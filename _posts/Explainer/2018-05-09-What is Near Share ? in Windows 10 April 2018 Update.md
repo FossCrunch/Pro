@@ -1,18 +1,20 @@
 ---
 layout: article
+post: true
+id: dk0006
 title: What is Near Share ? in Windows 10 April 2018 Update
 date: 2018-05-10 17:00
 category: Explainer
-tags: near-share windows10 windows-10-file-sharing file-sharing wireless-file-sharing build-17035 nearby-sharing share-files windows-10-guide windows-howto windows-insider technology internet computing open-source linux android security privacy
+keywords: [ fosscrunch, Explainer, near share, windows 10, windows 10 file sharing, file sharing, wireless file sharing, build 17035, nearby sharing, share files, windows 10 guide, windows, howto, windows insider, technology, internet, computing, open source, linux, android, security, privacy ]
+tags: Explainer near-share windows10 windows-10-file-sharing file-sharing wireless-file-sharing build-17035 nearby-sharing share-files windows-10-guide windows-howto windows-insider internet computing open-source linux android security privacy
 author: Dhinesh Kumar M
 permalink: microsoft-near-share/
 description: Near Share is the file sharing system that will allow you to share web pages, image's, videos and documents, etc between two PC. This was first introduced as part of Windows 10 Insider Build 17035.
 imageurl: /assets/img/main/2018-05-05-microsoft-near-share.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-05-microsoft-near-share.jpg
 posterurl: /assets/img/poster/2018-05-05-microsoft-near-share.jpg
-post: true
 ---
-<p><span class="first-letter">M</span>icrosoft has introduced a new built-in file sharing system called <strong>Near Share</strong>. This was first introduced as part of Windows 10&rsquo;s Insider<strong> Build 17035</strong>, it is an ad-hoc replacement for the traditional USB drives. If you have ever used Apple's AirDrop, Near Share is similar to that.</p>
+<p><span class="first-letter">M</span>icrosoft has introduced a new built-in file sharing system called <strong>Near Share</strong>. This was first introduced as part of Windows 10&rsquo;s Insider<strong> Build 17035</strong>, it is an ad-hoc replacement for the traditional USB drives. If you have ever used Apple's AirDrop, Near Share is similar to that. Ok let's dig out more about Near Share.</p>
 <h3><strong>What is Near Share?</strong></h3>
 <p>Near Share is the file sharing system that will allow you to share <strong>web pages, image's, videos and documents</strong>, etc between two PC. Near Share uses either Bluetooth or Wifi to share files, Windows automatically chooses between<strong> Bluetooth and WiFi</strong>. To enable Near Share, both PCs should be up-to-date with <strong>Windows April 2018 Update</strong>.</p>
 <p>Microsoft has Integrated Near Share completely in Windows 10, You can use Near Share in</p>
@@ -21,7 +23,7 @@ post: true
 <li>In File Explorer to share files using the share option</li>
 <li>Also in apps such as photos</li>
 </ul>
-<p>In fact, it exists everywhere the share option exists, It is expected that Microsoft will add Near share for mobile in near future.</p>
+<p>In fact, it exists everywhere wheresoever the share option exists, It is expected that Microsoft will add Near share for mobile in near future.</p>
 <h3><strong>Setting up and using Near Share</strong></h3>
 <p>You can switch on Near Share in Action Center, Microsoft has added a new quick action button. If you didn't find the button in action center, You can enable it in<strong> Settings &gt; System &gt; Notifications &amp; actions</strong>. Click Add or remove quick actions and turn on the radio button for Near Share.</p>
 <p>One thing important to note is that both Bluetooth and wifi should be ON while using Near Share since it uses Bluetooth to establish connection and Wifi to help transfer files</p>
@@ -39,4 +41,4 @@ post: true
 <li>Depending on the file size it will take some time.</li>
 </ul>
 <p>The Near Share feature works at all the places in Windows 10 where you can find the Share button.</p>
-<p>Near Share is useful for small files and web page, While testing with large files it seems to messy and slow.</p>
+<p>Near Share is useful for small files and web page, While testing with large files it seems to messy and slow. Possibly Microsoft might fix the issue in the upcoming updates.</p>

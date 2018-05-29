@@ -1,12 +1,12 @@
 ---
 layout: article
-id: dk0011
 post: true
+id: dk0011
 title: This is what actually caffeine does to your Brain
 date: 2018-05-19 13:00 
 category: Explainer
 keywords: [Explainer, fosscrunch, Caffeine, adenosine, tired, coffee, tea, energy drink, receptors, body tired, brain, neurons]
-tags: Explainer fosscrunch Caffeine adenosine tired coffee tea energy-drink receptors body-tired brain neurons
+tags: Explainer Caffeine adenosine tired coffee tea energy-drink receptors body-tired brain neurons
 author: Dhinesh Kumar M
 permalink: what-does-caffeine-do-to-your-brain/
 description: Caffeine is one of the most widely consumed refreshing drink, But actually what does caffeine does to your brain to be so active, to get answered read the blog.

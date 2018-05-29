@@ -1,16 +1,19 @@
 ---
 layout: article
+post: true
+id: dk0003
 title: 5 New Gmail Features to Check Out [Useful features]
 date: 2018-05-01 08:25 
 category: Technology
+keywords: [ Gmail, Google, email, tips, productivity ]
 tags: Gmail Google email tips productivity
 author: Dhinesh Kumar M
 permalink: new-gmail-features/
 description: Gmail is getting its first major desktop redesign in years. Rolling out for all personal Gmail users. Checkout the top 5 features.
 imageurl: /assets/img/main/2018-05-01-gmail-features.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-01-gmail-features.jpg
-sideimg: /assets/img/sideimg/2018-05-01-gmail-features.jpg
-post: true
+posterurl: /assets/img/sideimg/2018-05-01-gmail-features.jpg
+reference: Pcmag
 ---
 
 <span class="first-letter">G</span>mail is getting its <a href="https://www.pcmag.com/news/360579/google-is-giving-gmail-a-makeover">first major desktop redesign</a> in years. Rolling out for all personal Gmail users and <a href="https://www.pcmag.com/review/352023/google-g-suite">G Suite</a> early adopter program (EAP) customers, the revamped email service sports a streamlined interface, plus a bevy of new intelligence and security features geared toward productivity. 

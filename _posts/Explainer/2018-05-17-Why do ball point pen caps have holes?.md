@@ -1,12 +1,12 @@
 ---
-layout: article
-id: dk0010
+layout: article\
 post: true
+id: dk0010
 title: Why do ballpoint pen caps have holes?
 date: 2018-05-17 16:00 
 category: Explainer
 keywords: [Explainer, ballpoint pen, fosscrunch, cap swallow, ballpoint , pen cap holes, reason]
-tags: Explainer ballpoint-pen fosscrunch cap-swallow ballpoint pen-cap-holes reason
+tags: Explainer ballpoint-pen cap-swallow ballpoint pen-cap-holes reason
 author: Dhinesh Kumar M
 permalink: ballpoint-pen-cap-holes-mystery/
 description: There is a great mystery behind the holes in the ballpoint pen lids, learn this article to uncover the myster.

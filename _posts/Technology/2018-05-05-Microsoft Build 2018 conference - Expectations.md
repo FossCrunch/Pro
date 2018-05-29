@@ -1,16 +1,19 @@
 ---
 layout: article
+post: true
+id: dk0005
 title: Microsoft Build 2018 conference - Expectations
 date: 2018-05-05 17:00
 category: Technology
-tags: AI Azure Build Build2018 gadgetry gadgets gear microsoft personal-computing personalcomputing Windows Windows10
+keywprds: [ FossCrunch, technology, AI, Azure, Build, Build 2018, gadgets, gear, microsoft, personal computing, personalcomputing, Windows, Windows10 ]
+tags: technology AI Azure Build Build2018 gadgets gear microsoft personal-computing personalcomputing Windows Windows10
 author: Dhinesh Kumar M
 permalink: microsoft-build-2018-conference/
 description: Some of the major updates we’re expecting to see at Microsoft Build 2018 teases of Redstone 5 (the codename for the next major Windows 10 update), Windows Mixed Reality updates and some AI news.
 imageurl: /assets/img/main/2018-05-05-microsoft-build.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-05-microsoft-build.jpg
-sideimg: /assets/img/sideimg/2018-05-05-microsoft-build.jpg
-post: true
+posterurl: /assets/img/sideimg/2018-05-05-microsoft-build.jpg
+courtesy: Techradar
 ---
 
 <span class="first-letter">M</span>icrosoft Build is starting in just a few days, and with it we’ll see what Microsoft has in store for us in the coming year. The annual event, like <strong>Google I/O</strong> (which starts just one day later), is a celebration of the company's developer community. That means you can expect plenty of technical details and on-stage coding during the two keynotes, which will be led by Microsoft CEO <strong>Satya Nadella</strong> and operating systems head <strong>Joe Belfiore.</strong>
@@ -40,9 +43,13 @@ Microsoft has made huge strides in bringing artificial intelligence to its consu
 <h3><b>Windows Mixed Reality</b></h3>
 
 <div class="article-main-img artimg2">
-		<img src="{{ site.baseurl }}/assets/img/main/2018-05-05-microsoft-build-1.jpg" alt="{{page.tags | join: ', '}}">
+	<img src="{{ site.baseurl }}/assets/img/main/2018-05-05-microsoft-build-1.jpg" alt="{{page.tags | join: ', '}}">
 </div>
-
+<center>
+<footer class="imgcc">
+    Source: PlayTech
+</footer>
+</center>
 After launching Windows <strong>Mixed Reality </strong>last fall, alongside a slew of headsets from PC makers like HP, Acer and Samsung, Microsoft has been surprisingly quiet about the state of its VR and AR platform. The fact that many headsets have gotten drastically cheaper in just a few months. 
 <br>
 

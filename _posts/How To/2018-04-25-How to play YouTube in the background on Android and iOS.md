@@ -1,16 +1,19 @@
 ---
 layout: article
+post: true
+id: dk0001
 title: How to play YouTube in the background on Android and iOS
 date: 2018-04-25 10:30 
 category: How_To
-tags: google web mobile how-to reviews tech android youtube culture
+keywords: [ fosscrunch, google, web, mobile, how to, reviews, tech, android, youtube, culture ]
+tags: google web mobile how_to reviews tech android youtube culture
 author: Dhinesh Kumar M
 permalink: how-to-play-youtube-in-background/
 description: You can take advantage of a workaround to play YouTube videos in the background if you use Google Chrome. It might not be as convenient as Red, but the trick does the job by taking advantage of Chrome’s desktop mode feature.
 imageurl: /assets/img/main/2018-04-25-youtube.jpg
 thumbimageurl: /assets/img/thumbnail/2018-04-25-youtube.jpg
 posterurl: /assets/img/poster/2018-04-25-youtube.jpg
-post: true
+reference: theverge
 ---
 
 <span class="first-letter">Y</span>ouTube is the internet’s replacement for the TV, thus it’s entirely natural that we’d utilize it as our background noise provider, however Google doesn’t make that easy on mobile devices. Unless you receive a YouTube Red subscription, YouTube only plays as a foreground app, meaning you can’t use your telephone and listen to music or podcasts on YouTube at the same time. Well, unless you rip off a small. 

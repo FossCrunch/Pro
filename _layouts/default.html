@@ -121,12 +121,12 @@
 							<h3 class="title">Follow Us</h3>
 						</div>
 						<ul>
-							<li><a href="https://www.facebook.com/fosscrunch/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/Foss_Crunch" class="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://plus.google.com/communities/115601814492768606383/" class="google"><i class="fa fa-google"></i></a></li>
-							<li><a href="https://www.instagram.com/fosscrunch/" class="instagram"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
-							<li><a href="{{ site.baseurl }}/feed.xml" class="rss"><i class="fa fa-rss"></i></a></li>
+							<li><a href="https://www.facebook.com/fosscrunch/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/Foss_Crunch" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/communities/115601814492768606383/" target="_blank" class="google"><i class="fa fa-google"></i></a></li>
+							<li><a href="https://www.instagram.com/fosscrunch/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="javascript:youtubepop();" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="{{ site.baseurl }}/feed.xml" target="_blank" class="rss"><i class="fa fa-rss"></i></a></li>
 						</ul>
 					</div>
 					<!-- /footer social -->
@@ -160,7 +160,7 @@
 					<ul class="footer-links">
 						<li><a href="{{ site.baseurl }}/about/">About us</a></li>
 						<li><a href="{{ site.baseurl }}/about/#contact">Contact</a></li>
-						<li><a href="#">Advertisement</a></li>
+						<!-- <li><a href="#">Advertisement</a></li> -->
 						<li><a href="/privacy-policy">Privacy</a></li>
 					</ul>
 				</div>
@@ -194,6 +194,13 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/owl.carousel.min.js"></script>
 <script src="/assets/js/main.js"></script>
-
+<script type="text/javascript">
+	function youtubepop() {
+		alert("Sorry currently we dont have Youtube channel.");
+	}
+	function newsletterpop() {
+		alert("Sorry, Currently Newsletter service is not active.");
+	}
+</script>
 </body>
 </html>

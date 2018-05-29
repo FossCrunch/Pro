@@ -83,7 +83,18 @@ a:focus{
     text-decoration: none!important;
     outline: none;
 }
+.custlink a {
+	font-weight:400;
+	color: #e03c8e;
+	text-decoration: underline!important;
+}
 
+.custlink a:hover,
+.custlink a:focus{
+	color: #ef5fa7;
+    text-decoration: none!important;
+    outline: none;
+}
 ul,ol{
     margin: 0;
     padding: 0;
