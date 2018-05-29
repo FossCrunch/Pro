@@ -1,5 +1,7 @@
 ---
 layout: article
+post: true
+id: ns0008
 title: NASA's new mission to send Helicopter to Our Neighbour Red Planet.
 date: 2018-05-17 17:30 
 category: Science
@@ -7,12 +9,12 @@ tags: Science Technology Fosscrunch NASA Helicopter The-Mars-helicopter Mars-202
 Keywords: [Science, Technology, Fosscrunch, NASA, Helicopter, The Mars helicopter, Mars 2020 rover, US, space, agency, Red planet, Drone Mars, Wright Brothers]
 author: Naveen Sankar
 permalink: nasa-mars-helicopter/
-description: Wright brothers proves that controlled flight is possilobe in the planet earth, now NASA plans to prove it again but in the red planet " The Mars ", NASA is sending a helicopter to Mars along with Mars 2020 Rover.
 imageurl: /assets/img/main/2018-05-17-NASA-MArs-Helicopter.jpg
 imagecourtesy: NASA/JPL-Caltech
 thumbimageurl: /assets/img/thumbnail/2018-05-17-NASA-MArs-Helicopter-t.jpg
 posterurl: /assets/img/poster/2018-05-17-NASA-MArs-Helicopter-p.jpg
-post: true
+reference: [Nasa Press-release]
+description: Wright brothers proves that controlled flight is possilobe in the planet earth, now NASA plans to prove it again but in the red planet " The Mars ", NASA is sending a helicopter to Mars along with Mars 2020 Rover.
 ---
 
 <p><a href="https://www.nasa.gov/press-release/mars-helicopter-to-fly-on-nasa-s-next-red-planet-rover-mission" target="_blank">NASA</a> plans to send an <strong>unmanned tiny helicopter</strong> to explore more about <a href="https://en.wikipedia.org/wiki/Mars" target="_blank">MARS</a>. Us space agency announced it on Friday about the unmanned air trip in the <strong>red planet</strong> along with <a href="https://en.wikipedia.org/wiki/Mars_2020" target="_blank">Mars 2020 Rover</a>.</p>
@@ -26,7 +28,7 @@ post: true
 <blockquote class="blockquote">
   <p class="mb-0">“The altitude record for a helicopter flying here on Earth is about <strong>40,000 feet</strong> (12,200 meters). The atmosphere of Mars is only one percent that of Earth, so when our helicopter is on the <a href="https://en.wikipedia.org/wiki/Martian_surface" target="_blank">Martian surface</a>, it's already at the Earth equivalent of <strong>100,000 feet </strong>(30,480 meters) up,”
 </p>
-  <footer class="blockquote-footer">- Said Mimi Aung, the Mars Helicopter project manager at NASA's Jet Propulsion Laboratory</footer>
+  <footer class="blockquote-footer">Said Mimi Aung, the Mars Helicopter project manager at NASA's Jet Propulsion Laboratory</footer>
 </blockquote>
 
 <p>The mars helicopter is equipped with <strong>Lithium-ion batteries </strong>which will be charged by <strong>solar cells</strong>, included a heating mechanism to keep it warm through the cold Martian nights.</p>
@@ -47,7 +49,7 @@ post: true
 <blockquote class="blockquote">
   <p class="mb-0">“The ability to see clearly what lies beyond the next hill is crucial for future explorers,”
 </p>
-  <footer class="blockquote-footer">- said NASA's <a href="https://en.wikipedia.org/wiki/Thomas_Zurbuchen" target="_blank">Thomas Zurbuchen</a>, associate administrator for the science mission directorate.</footer>
+  <footer class="blockquote-footer">said NASA's <a href="https://en.wikipedia.org/wiki/Thomas_Zurbuchen" target="_blank">Thomas Zurbuchen</a>, associate administrator for the science mission directorate.</footer>
 </blockquote>
 
 <p>This is another <strong>milestone</strong> of NASA and let us wait and watch NASA making a history of this <strong>era</strong>!!!</p>
