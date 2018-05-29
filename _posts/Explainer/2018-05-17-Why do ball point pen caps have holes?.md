@@ -1,5 +1,5 @@
 ---
-layout: article\
+layout: article
 post: true
 id: dk0010
 title: Why do ballpoint pen caps have holes?
