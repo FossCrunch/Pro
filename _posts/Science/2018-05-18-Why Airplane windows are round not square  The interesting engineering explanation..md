@@ -1,10 +1,11 @@
 ---
 layout: article
 post: true
-id: ns0009
+postid: ns0009
 title: Why Airplane windows are round not square ? The interesting engineering explanation.
 date: 2018-05-18 10:30
 author: Naveen Sankar
+twitter: Naveensan_Tweet
 category: Science
 tags: Science Technology Fosscrunch Airplane round square stress fuselage window atmospheric-pressure internal-pressure 
 Keywords: [Science, Technology, Fosscrunch, Airplane, round, square, stress, fuselage, window, atmospheric-pressure, internal-pressure ]

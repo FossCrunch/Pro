@@ -1,22 +1,27 @@
 ---
 layout: article
+post: true
+postid: ns0001
 title: After Facebook, Twitter get caught in the Cambridge analytica scandal
 date: 2018-05-01 10:30 
-category: Technology
-tags: twitter cambridge-analytica scandal facebook-scandal Social-Media Analytica Donald-Trump-presidential-campaign
 author: Naveen Sankar
+twitter: Naveensan_Tweet
+category: Technology
+keywords: [Fosscrunch, twitter, cambridge-analytica, scandal, facebook scandal, Social Media, Analytica, Donald Trump presidential campaign]
+tags: twitter cambridge-analytica scandal facebook-scandal Social-Media Analytica Donald-Trump-presidential-campaign
 permalink: twitter-cambridge-analytica-scandal/
 description: After the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge.
 imageurl: /assets/img/main/2018-05-01-twitter-scandal.jpg
 thumbimageurl: /assets/img/thumbnail/2018-05-01-twitter-scandal.jpg
-sideimg: /assets/img/sideimg/2018-05-01-twitter-scandal.jpg
-post: true
+posterurl: /assets/img/poster/2018-05-01-twitter-scandal.jpg
+reference: [India Today]
+
 ---
 
-<span class="first-letter">A</span>fter the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly 87 million Facebook users without their knowledge. 
+<span class="first-letter">A</span>fter the Facebook data scandal, it has now come to notice that Twitter had also sold users' data to a Cambridge Analytica researcher who gathered the data of nearly <b>87 million</b> Facebook users without their knowledge. 
 <br>
 
-According to the report, Twitter sold public data access in 2015 to Aleksandr Kogan, then a psychology researcher with University of Cambridge and his company Global Science Research (GSR). 
+According to the report, Twitter sold public data access in 2015 to <b>Aleksandr Kogan</b>, then a psychology researcher with University of Cambridge and his company Global Science Research <b>(GSR)</b>. 
 <br>
 
 Twitter confirmed its relationship with DrKogan’s firm Global Science Research yesterday, revealing it allowed the firm to harvest “a random sample of public tweets for a five-month period from December 2014 to April 2015”.
@@ -40,14 +45,14 @@ But Cambridge Analytica, which allegedly used the Facebook data to influence ele
   <footer class="blockquote-footer">Cambridge Analytica - <cite title="Source Title">Twitter</cite></footer>
 </blockquote>
 
-Regardless, Twitter will no longer allow Cambridge Analytica to book advertisements on its platform because it has “a business model that inherently conflicts with acceptable Twitter Ads business practices,” though the company will still be allowed to use its Twitter account. 
+Regardless, Twitter will no longer allow <b>Cambridge Analytica</b> to book advertisements on its platform because it has “a business model that inherently conflicts with acceptable Twitter Ads business practices,” though the company will still be allowed to use its Twitter account. 
 <br>
 
 Social-media companies have come under intense scrutiny over reports that Facebook failed to protect the privacy of its users. Companies like Twitter tend to have access to less private information than Facebook.
 <br>
 
-About 270,000 people downloaded Kogan's personality-quiz app, which shared information on the people and their friends that then was improperly passed to Cambridge Analytica.
+About <b>270,000</b> people downloaded Kogan's personality-quiz app, which shared information on the people and their friends that then was improperly passed to Cambridge Analytica.
 <br>
 
-Zuckerberg has testified in front of Congress about the misuse of data, and lawmakers have called on Twitter CEO Jack Dorsey and Google's India-born CEO Sundar Pichai to testify as well.
+Zuckerberg has testified in front of Congress about the misuse of data, and lawmakers have called on Twitter CEO <strong>Jack Dorsey</strong> and Google's India-born CEO <strong>Sundar Pichai</strong> to testify as well.
 <br>

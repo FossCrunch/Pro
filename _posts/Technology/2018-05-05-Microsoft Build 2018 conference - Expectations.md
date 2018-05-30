@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0005
+postid: dk0005
 title: Microsoft Build 2018 conference - Expectations
 date: 2018-05-05 17:00
 category: Technology
 keywprds: [ FossCrunch, technology, AI, Azure, Build, Build 2018, gadgets, gear, microsoft, personal computing, personalcomputing, Windows, Windows10 ]
 tags: technology AI Azure Build Build2018 gadgets gear microsoft personal-computing personalcomputing Windows Windows10
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: microsoft-build-2018-conference/
 description: Some of the major updates we’re expecting to see at Microsoft Build 2018 teases of Redstone 5 (the codename for the next major Windows 10 update), Windows Mixed Reality updates and some AI news.
 imageurl: /assets/img/main/2018-05-05-microsoft-build.jpg

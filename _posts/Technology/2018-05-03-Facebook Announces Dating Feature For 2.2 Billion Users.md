@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0004
+postid: dk0004
 title: Facebook Announces Dating Feature For 2.2 Billion Users
 date: 2018-05-03 17:00
 category: Technology
 keywords: [ fosscrunch, technology, facebook, facebook dating feature, f8, tinde,r tinder killer, facebook f8 2018, internet, computing, open source, linux ]
 tags: technology facebook facebook-dating-feature f8 tinder tinder-killer facebook-f8-2018 internet computing open-source linux
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: facebook-dating-feature/
 description: The new Tinder-killer will live inside the app, and Zuckerberg said that it won’t be visible to friends or family, and won’t pair you with your existing friends.
 imageurl: /assets/img/main/2018-05-03-facebook.jpg

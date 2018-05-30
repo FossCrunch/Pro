@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: ns0008
+postid: ns0008
 title: NASA's new mission to send Helicopter to Our Neighbour Red Planet.
 date: 2018-05-17 17:30 
 category: Science
 tags: Science Technology Fosscrunch NASA Helicopter The-Mars-helicopter Mars-2020-rover US space agency Red-planet Drone-Mars Wright Brothers
 Keywords: [Science, Technology, Fosscrunch, NASA, Helicopter, The Mars helicopter, Mars 2020 rover, US, space, agency, Red planet, Drone Mars, Wright Brothers]
 author: Naveen Sankar
+twitter: Naveensan_Tweet
 permalink: nasa-mars-helicopter/
 imageurl: /assets/img/main/2018-05-17-NASA-MArs-Helicopter.jpg
 imagecourtesy: NASA/JPL-Caltech
@@ -19,9 +20,9 @@ description: Wright brothers proves that controlled flight is possilobe in the p
 
 <p><a href="https://www.nasa.gov/press-release/mars-helicopter-to-fly-on-nasa-s-next-red-planet-rover-mission" target="_blank">NASA</a> plans to send an <strong>unmanned tiny helicopter</strong> to explore more about <a href="https://en.wikipedia.org/wiki/Mars" target="_blank">MARS</a>. Us space agency announced it on Friday about the unmanned air trip in the <strong>red planet</strong> along with <a href="https://en.wikipedia.org/wiki/Mars_2020" target="_blank">Mars 2020 Rover</a>.</p>
 <p>The four pounds(1.8 kilograms) aircraft simply known as "<strong>The Mars Helicopter</strong>" having its main fuselage or body section to the size of a <a href="https://en.wikipedia.org/wiki/Softball" target="_blank">softball</a>. From the video published by NASA jet propulsion laboratory, the helicopter</p>
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oOMQOqKRWjU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<br>
 <p>The mars helicopter will be model for the future Mars mission, capable of accessing the place which rover cant reach. The airtime plans are being laid for 30 days including five flights going incrementally further each time.</p>
 <p>The helicopter consists of <strong>two <a href="https://en.wikipedia.org/wiki/Contra-rotating_propellers" target="_blank">coaxial propellers</a></strong> to fly through the thin skies of Mars, rotating at the <strong>RPM of 3000</strong> which is much less when compared to earth.</p>
 
@@ -32,17 +33,14 @@ description: Wright brothers proves that controlled flight is possilobe in the p
 </blockquote>
 
 <p>The mars helicopter is equipped with <strong>Lithium-ion batteries </strong>which will be charged by <strong>solar cells</strong>, included a heating mechanism to keep it warm through the cold Martian nights.</p>
+<p></p>
 <div class="article-main-img">
 <center>
 		<img src="{{ site.baseurl }}/assets/img/main/2018-05-17-NASA-Mars-Helicopter-01.gif" alt="{{page.tags | join: ', '}}">
 </center>
 
 </div>
-<center>
-<footer class="imgcc">
-    Image courtesy: NASA/JPL-CalTech
-</footer>
-</center>
+<p></p>
 <p>They have designed the <strong>space helicopter super light</strong>, so it can easily fly through the thin helicopter, and controllers were also designed to get a command from the rover it's hard to the controller it with a joystick from earth.</p>
 
 

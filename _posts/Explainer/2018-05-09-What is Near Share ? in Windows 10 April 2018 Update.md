@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0006
+postid: dk0006
 title: What is Near Share ? in Windows 10 April 2018 Update
 date: 2018-05-10 17:00
 category: Explainer
 keywords: [ fosscrunch, Explainer, near share, windows 10, windows 10 file sharing, file sharing, wireless file sharing, build 17035, nearby sharing, share files, windows 10 guide, windows, howto, windows insider, technology, internet, computing, open source, linux, android, security, privacy ]
 tags: Explainer near-share windows10 windows-10-file-sharing file-sharing wireless-file-sharing build-17035 nearby-sharing share-files windows-10-guide windows-howto windows-insider internet computing open-source linux android security privacy
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: microsoft-near-share/
 description: Near Share is the file sharing system that will allow you to share web pages, image's, videos and documents, etc between two PC. This was first introduced as part of Windows 10 Insider Build 17035.
 imageurl: /assets/img/main/2018-05-05-microsoft-near-share.jpg

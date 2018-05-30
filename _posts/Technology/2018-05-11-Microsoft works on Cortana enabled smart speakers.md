@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0007
+postid: dk0007
 title: Microsoft works on Cortana enabled smart speakers
 date: 2018-05-11 17:00
 category: Technology
 keywords: [fosscrunch, Technology, smart speaker, microsoft speaker, cortana, cortana speaker, AI, Azure, Build, Build 2018, gadgets, gear, microsoft, personal computing, personalcomputing, Windows, Windows10]
 tags: Technology smart-speaker microsoft-speaker cortana cortana-speaker AI Azure Build Build2018 gadgetry gadgets gear microsoft personal-computing personalcomputing Windows Windows10
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: microsoft-smart-speaker/
 description: It is likely that Microsoft is partnered with Taiwanese contract manufacturer Quanta Computer, the design for the smart speaker has been recently completed by the reference board.
 imageurl: /assets/img/main/2018-05-11-microsoft-smart-spaker.jpg

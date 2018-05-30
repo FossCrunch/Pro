@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0009
+postid: dk0009
 title: Scientists successfully transferred memory from one snail to other
 date: 2018-05-16 11:00 
 category: Science
 keywords: [Science, neuroscience, memory transfer, sea snail, research, fosscrunch, neurobiologist, RNA, ribonucleic acid]
 tags: Science neuroscience memory-transfer sea-snail research neurobiologist RNA ribonucleic-acid
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: sea-snail-memory-transfer/
 description: Scientists have been studying about Sea Snail for a long time. Sea snail has about sum of 20000 Neurons which is very much less compared to humans 100 billion neurons. But the functionality is more likely similar to humans. They transmit impulse as the human brain do
 imageurl: /assets/img/main/2018-05-16-sea-snail-memory-transfer.jpg

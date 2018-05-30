@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0008
+postid: dk0008
 title: AI tools cretated 3d model of human cell
 date: 2018-05-12 13:30 
 category: Science
 keywords: [3D, artifical intelligence, AI, tensorflow, fosscrunch, science, bio-engineering,  model, cells, genes, machine learning, medicine, biology]
 tags: 3D artifical-intelligence AI tensorflow science bio-engineering  model cells genes machine-learning medicine biology
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: human-cell-using-ai/
 description: The team captured thousands of images of these cells and used Artificial intelligence to create the AI model that predicts the location of structures and shape in any cell based on the shape of the nucleus and the plasma membrane.
 imageurl: /assets/img/main/2018-05-12-human-cell-using-ai.jpg

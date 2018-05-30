@@ -1,13 +1,14 @@
 ---
 layout: article
 post: true
-id: dk0003
+postid: dk0003
 title: 5 New Gmail Features to Check Out [Useful features]
 date: 2018-05-01 08:25 
 category: Technology
 keywords: [ Gmail, Google, email, tips, productivity ]
 tags: Gmail Google email tips productivity
 author: Dhinesh Kumar M
+twitter: Dhinesh_Kumar_M
 permalink: new-gmail-features/
 description: Gmail is getting its first major desktop redesign in years. Rolling out for all personal Gmail users. Checkout the top 5 features.
 imageurl: /assets/img/main/2018-05-01-gmail-features.jpg
