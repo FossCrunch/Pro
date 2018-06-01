@@ -39,5 +39,10 @@ description: In the Google I/O conference Gmail received major updates, One amon
 <center>
 	<img src="{{ site.baseurl }}/assets/img/main/2018-06-01-how-to-enable-gmail-offline-mode-1.jpg" alt="{{page.tags | join: ', '}}">
 </center>
+<center>
+<footer class="imgcc">
+    <p>Gmail Offline mode Settings</p> 
+</footer>
+</center>
 </div>
 <p>Google has also announced that it will <strong>discontinue</strong> the legacy Gmail offline Chrome app by the end of <strong>2018</strong>. Hence if you're still using it, then this is the perfect time to switch over to the integrated feature. Stay tuned with us for more interesting articles. Cheers!</p>
