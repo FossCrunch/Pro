@@ -5,7 +5,7 @@
 		</div>
 		<div class="article-body">
 			<ul class="article-info">
-				<li class="article-category" style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% endif %}; ">
+				<li class="article-category" style="background: {% if post.category == "Technology" %}#E31010{% elsif post.category == "Linux" %}#7B27C9{% elsif post.category == "Science" %}#02bb18{% elsif post.category == "Explainer" %}#31a1ff{% elsif post.category == "How_To" %}#C90861{% elsif post.category == "News" %}#3F73C7{% else %}#7b27c9{% endif %}; ">
 					<a href="{{ site.baseurl }}/category/{{post.category | downcase }}/"><b>{% if post.category == "How_To" %}How To {% else %} {{ post.category}} {% endif %}</b></a>
 				</li>
 			</ul>
