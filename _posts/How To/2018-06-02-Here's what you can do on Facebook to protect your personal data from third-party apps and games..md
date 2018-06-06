@@ -14,7 +14,7 @@ description: Facebook’s data scandal has drawn everyone’s towards the vulner
 imageurl: /assets/img/main/2018-06-02-Facebook-minimize-personal-data.jpg
 imagecourtesy: Siliconeer
 thumbimageurl: /assets/img/thumbnail/2018-06-02-Facebook-minimize-personal-data-t.jpg
-posterurl: /assets/img/sideimg/2018-06-02-Facebook-minimize-personal-data-p.jpg
+posterurl: /assets/img/poster/2018-06-02-Facebook-minimize-personal-data-p.jpg
 reference: [The verge]
 
 ---
